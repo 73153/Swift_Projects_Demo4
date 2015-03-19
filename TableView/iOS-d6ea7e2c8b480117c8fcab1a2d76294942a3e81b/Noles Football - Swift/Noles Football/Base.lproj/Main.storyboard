@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6154.17" systemVersion="13D65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="49e-Tb-3d3">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6153.11"/>
+    </dependencies>
+    <scenes>
+        <!--Tab Bar Controller-->
+        <scene sceneID="yl2-sM-qoP">
+            <objects>
+                <tabBarController id="49e-Tb-3d3" sceneMemberID="viewController">
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="W28-zg-YXA">
+                        <rect key="frame" x="0.0" y="975" width="768" height="49"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="rhD-yc-ZSW" kind="relationship" relationship="viewControllers" id="yk8-6r-dG6"/>
+                        <segue destination="eS6-sD-209" kind="relationship" relationship="viewControllers" id="rJh-w5-QOk"/>
+                        <segue destination="AzS-md-bBq" kind="relationship" relationship="viewControllers" id="aER-TW-gXW"/>
+                        <segue destination="2RB-ak-Gty" kind="relationship" relationship="viewControllers" id="olK-ge-K8j"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HuB-VB-40B" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1691" y="167"/>
+        </scene>
+        <!--Headlines View Controller - Headlines-->
+        <scene sceneID="rLY-OE-Az6">
+            <objects>
+                <tableViewController id="Hp7-qJ-XA4" customClass="HeadlinesViewController" customModule="Noles_Football" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="rlq-N3-Lks">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" ambiguous="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="HeadlinesCell" textLabel="2T7-qD-mgn" detailTextLabel="juN-UT-frH" style="IBUITableViewCellStyleSubtitle" id="lWu-rW-o3n">
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="lWu-rW-o3n" id="JFh-rz-Vre">
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="2T7-qD-mgn">
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Subtitle" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="juN-UT-frH">
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="Hp7-qJ-XA4" id="eAh-gY-96c"/>
+                            <outlet property="delegate" destination="Hp7-qJ-XA4" id="6SO-VG-f8B"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Headlines" id="yrb-tU-9VD"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mBd-W4-lya" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2553" y="43"/>
+        </scene>
+        <!--Navigation Controller - Headlines-->
+        <scene sceneID="Eny-cV-ZF1">
+            <objects>
+                <navigationController id="rhD-yc-ZSW" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Headlines" image="News" id="IeJ-N3-ErX"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="2iX-dO-2cC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.39607843139999999" green="0.0078431372550000003" blue="0.1019607843" alpha="1" colorSpace="deviceRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="Hp7-qJ-XA4" kind="relationship" relationship="rootViewController" id="Rlv-vL-3e4"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WJk-qB-BHp" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2092" y="57"/>
+        </scene>
+        <!--Twitter View Controller - Twitter-->
+        <scene sceneID="EFX-P2-dxB">
+            <objects>
+                <tableViewController id="27V-Cr-xXw" customClass="TwitterViewController" customModule="Noles_Football" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="Vb0-wT-qXs">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" ambiguous="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="TwitterCell" textLabel="UzE-Zn-1xo" detailTextLabel="aB6-6v-Ghc" style="IBUITableViewCellStyleSubtitle" id="syM-Rn-UZk">
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="syM-Rn-UZk" id="BPM-uD-n2X">
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="UzE-Zn-1xo">
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Subtitle" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="aB6-6v-Ghc">
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="27V-Cr-xXw" id="DMf-Uu-nQv"/>
+                            <outlet property="delegate" destination="27V-Cr-xXw" id="Bxv-gu-gW6"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Twitter" id="gwX-eq-M6e"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Atr-4R-5Qe" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2419" y="1940"/>
+        </scene>
+        <!--Navigation Controller - Twitter-->
+        <scene sceneID="Ohr-HV-IVb">
+            <objects>
+                <navigationController id="2RB-ak-Gty" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Twitter" image="Twitter" id="rAc-Nf-cNB"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="IZj-Ke-Bd7">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.39607843139999999" green="0.0078431372550000003" blue="0.1019607843" alpha="1" colorSpace="deviceRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="27V-Cr-xXw" kind="relationship" relationship="rootViewController" id="fXw-V5-Kmg"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ck8-mI-fh7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1886" y="1878"/>
+        </scene>
+        <!--Roster View Controller - Rosters-->
+        <scene sceneID="r0M-xT-Qwm">
+            <objects>
+                <tableViewController id="tVI-jb-Iwt" customClass="RosterViewController" customModule="Noles_Football" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="DeG-4m-isQ">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" ambiguous="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="RostersCell" textLabel="fLT-QE-yeu" detailTextLabel="U7a-iU-fN0" style="IBUITableViewCellStyleSubtitle" id="ALf-eV-HnD">
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="ALf-eV-HnD" id="OdL-vp-wfE">
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="fLT-QE-yeu">
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Subtitle" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="U7a-iU-fN0">
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="tVI-jb-Iwt" id="JCJ-zA-AoE"/>
+                            <outlet property="delegate" destination="tVI-jb-Iwt" id="3GW-gg-eoX"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Rosters" id="We9-lM-mYI"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dOz-BD-ms9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2699" y="1349"/>
+        </scene>
+        <!--Navigation Controller - Rosters-->
+        <scene sceneID="ug1-E5-9av">
+            <objects>
+                <navigationController id="AzS-md-bBq" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Rosters" image="Star" id="esK-ef-h50"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="HEw-Hj-lan">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.39607843139999999" green="0.0078431372550000003" blue="0.1019607843" alpha="1" colorSpace="deviceRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="tVI-jb-Iwt" kind="relationship" relationship="rootViewController" id="jGG-p8-iel"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8aZ-WH-dUE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1474" y="1197"/>
+        </scene>
+        <!--Schedule View Controller - Schedules-->
+        <scene sceneID="a1Q-BS-7mx">
+            <objects>
+                <tableViewController id="k7z-ez-cDF" customClass="ScheduleViewController" customModule="Noles_Football" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="Yd3-RS-bPh">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" ambiguous="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="SchedulesCell" textLabel="WF7-ld-MDq" detailTextLabel="b2g-8w-Of7" style="IBUITableViewCellStyleValue1" id="fec-t6-haD">
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="fec-t6-haD" id="hBV-hA-fuW">
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="WF7-ld-MDq">
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Detail" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="b2g-8w-Of7">
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                            <color key="textColor" red="0.55686274509803924" green="0.55686274509803924" blue="0.57647058823529407" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="k7z-ez-cDF" id="nSo-Oj-z8b"/>
+                            <outlet property="delegate" destination="k7z-ez-cDF" id="3MU-YJ-lBm"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Schedules" id="itc-ho-Yqo"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="r3K-v7-kyG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2699" y="754"/>
+        </scene>
+        <!--Navigation Controller - Schedules-->
+        <scene sceneID="yk2-c5-tdA">
+            <objects>
+                <navigationController id="eS6-sD-209" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Schedules" image="Calendar" id="CEy-dC-0pA"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="0ww-ev-HI6">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.39607843139999999" green="0.0078431372550000003" blue="0.1019607843" alpha="1" colorSpace="deviceRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="k7z-ez-cDF" kind="relationship" relationship="rootViewController" id="i16-5D-ybK"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="05f-wV-GQe" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2156" y="754"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Calendar" width="30" height="30"/>
+        <image name="News" width="30" height="30"/>
+        <image name="Star" width="30" height="30"/>
+        <image name="Twitter" width="30" height="30"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+    <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+</document>

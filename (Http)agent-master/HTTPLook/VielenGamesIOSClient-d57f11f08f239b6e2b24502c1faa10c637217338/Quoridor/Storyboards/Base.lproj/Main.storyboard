@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6154.17" systemVersion="13D65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="LVB-YS-i5n">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6153.11"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+    </dependencies>
+    <scenes>
+        <!--Game View Controller-->
+        <scene sceneID="CtS-rA-C9T">
+            <objects>
+                <viewController id="LVB-YS-i5n" customClass="GameViewController" customModule="Quoridor" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="PCf-gQ-wO7"/>
+                        <viewControllerLayoutGuide type="bottom" id="b3d-qh-BLL"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="bdc-N1-crn">
+                        <rect key="frame" x="0.0" y="0.0" width="480" height="480"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleAspectFit" translatesAutoresizingMaskIntoConstraints="NO" id="l7D-qZ-2bY" customClass="SKView">
+                                <rect key="frame" x="20" y="20" width="440" height="440"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="l7D-qZ-2bY" secondAttribute="height" multiplier="1:1" id="F2p-8u-gPK"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="b3d-qh-BLL" firstAttribute="top" relation="greaterThanOrEqual" secondItem="l7D-qZ-2bY" secondAttribute="bottom" id="As0-dD-2M0"/>
+                            <constraint firstAttribute="width" secondItem="l7D-qZ-2bY" secondAttribute="width" priority="800" id="EvY-5a-gNj"/>
+                            <constraint firstAttribute="height" secondItem="l7D-qZ-2bY" secondAttribute="height" priority="800" id="GHW-PM-fWX"/>
+                            <constraint firstAttribute="centerY" secondItem="l7D-qZ-2bY" secondAttribute="centerY" id="ND3-1C-LB4"/>
+                            <constraint firstAttribute="centerX" secondItem="l7D-qZ-2bY" secondAttribute="centerX" id="Uu3-CX-ASV"/>
+                            <constraint firstItem="l7D-qZ-2bY" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="bdc-N1-crn" secondAttribute="leading" id="Z8B-fG-mSK"/>
+                            <constraint firstItem="l7D-qZ-2bY" firstAttribute="top" relation="greaterThanOrEqual" secondItem="PCf-gQ-wO7" secondAttribute="bottom" id="rhE-Eb-EZG"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="l7D-qZ-2bY" secondAttribute="trailing" id="v7h-vH-48L"/>
+                        </constraints>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    </view>
+                    <connections>
+                        <outlet property="skView" destination="l7D-qZ-2bY" id="H1o-qO-IUH"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="btX-cZ-eVz" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>

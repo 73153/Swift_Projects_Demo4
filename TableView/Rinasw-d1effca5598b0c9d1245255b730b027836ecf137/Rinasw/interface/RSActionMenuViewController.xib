@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6154.17" systemVersion="14A238x" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6153.11"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="RSActionMenuViewController" customModule="Rinasw" customModuleProvider="target">
+            <connections>
+                <outlet property="overlayView" destination="cQ6-Ya-GcE" id="NwB-Ss-aLp"/>
+                <outlet property="tableView" destination="NqV-ff-K4i" id="Tun-pS-4nO"/>
+                <outlet property="view" destination="dZO-5N-iV8" id="5ie-Ad-vYC"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="dZO-5N-iV8">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view appearanceType="aqua" contentMode="scaleToFill" id="cQ6-Ya-GcE" userLabel="View - overlay">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="320"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    <gestureRecognizers/>
+                    <connections>
+                        <outletCollection property="gestureRecognizers" destination="u8z-RK-mfC" appends="YES" id="UEe-Ve-xaT"/>
+                    </connections>
+                </view>
+                <tableView appearanceType="aqua" clipsSubviews="YES" contentMode="scaleToFill" bounces="NO" alwaysBounceVertical="YES" style="plain" separatorStyle="none" rowHeight="60" sectionHeaderHeight="22" sectionFooterHeight="22" id="NqV-ff-K4i">
+                    <rect key="frame" x="0.0" y="320" width="320" height="248"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="W4g-VH-0ux"/>
+                        <outlet property="delegate" destination="-1" id="Lxw-E2-9FQ"/>
+                    </connections>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+            <point key="canvasLocation" x="366" y="-1547"/>
+        </view>
+        <tapGestureRecognizer id="u8z-RK-mfC">
+            <connections>
+                <action selector="handleTapOverlayView:" destination="-1" id="vbv-kc-uE7"/>
+            </connections>
+        </tapGestureRecognizer>
+    </objects>
+</document>

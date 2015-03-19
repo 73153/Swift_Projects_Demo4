@@ -1,0 +1,516 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF52DB6A194FD4F7005EC819 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF52DB69194FD4F7005EC819 /* AppDelegate.swift */; };
+		EF52DB6E194FD50B005EC819 /* ColorPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF52DB6B194FD50B005EC819 /* ColorPickerViewController.swift */; };
+		EF52DB6F194FD50B005EC819 /* LeftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF52DB6C194FD50B005EC819 /* LeftViewController.swift */; };
+		EF52DB70194FD50B005EC819 /* RightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF52DB6D194FD50B005EC819 /* RightViewController.swift */; };
+		EF52DB72194FD512005EC819 /* Monster.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF52DB71194FD512005EC819 /* Monster.swift */; };
+		EF52DB74194FD51A005EC819 /* MonsterSelectionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF52DB73194FD51A005EC819 /* MonsterSelectionDelegate.swift */; };
+		EF52DB80194FD537005EC819 /* blowgun.png in Resources */ = {isa = PBXBuildFile; fileRef = EF52DB75194FD537005EC819 /* blowgun.png */; };
+		EF52DB81194FD537005EC819 /* fire.png in Resources */ = {isa = PBXBuildFile; fileRef = EF52DB76194FD537005EC819 /* fire.png */; };
+		EF52DB82194FD537005EC819 /* meetcatbot.png in Resources */ = {isa = PBXBuildFile; fileRef = EF52DB77194FD537005EC819 /* meetcatbot.png */; };
+		EF52DB83194FD537005EC819 /* meetdogbot.png in Resources */ = {isa = PBXBuildFile; fileRef = EF52DB78194FD537005EC819 /* meetdogbot.png */; };
+		EF52DB84194FD537005EC819 /* meetexplodebot.png in Resources */ = {isa = PBXBuildFile; fileRef = EF52DB79194FD537005EC819 /* meetexplodebot.png */; };
+		EF52DB85194FD537005EC819 /* meetfirebot.png in Resources */ = {isa = PBXBuildFile; fileRef = EF52DB7A194FD537005EC819 /* meetfirebot.png */; };
+		EF52DB86194FD537005EC819 /* meeticebot.png in Resources */ = {isa = PBXBuildFile; fileRef = EF52DB7B194FD537005EC819 /* meeticebot.png */; };
+		EF52DB87194FD537005EC819 /* meetminitomatobot.png in Resources */ = {isa = PBXBuildFile; fileRef = EF52DB7C194FD537005EC819 /* meetminitomatobot.png */; };
+		EF52DB88194FD537005EC819 /* ninjastar.png in Resources */ = {isa = PBXBuildFile; fileRef = EF52DB7D194FD537005EC819 /* ninjastar.png */; };
+		EF52DB89194FD537005EC819 /* smoke.png in Resources */ = {isa = PBXBuildFile; fileRef = EF52DB7E194FD537005EC819 /* smoke.png */; };
+		EF52DB8A194FD537005EC819 /* sword.png in Resources */ = {isa = PBXBuildFile; fileRef = EF52DB7F194FD537005EC819 /* sword.png */; };
+		EF7791AA194E7A5B00C40CB7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF7791A9194E7A5B00C40CB7 /* Images.xcassets */; };
+		EF7791B6194E7A5C00C40CB7 /* MathMonstersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7791B5194E7A5C00C40CB7 /* MathMonstersTests.swift */; };
+		EF7791C0194E7AAE00C40CB7 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF7791BF194E7AAE00C40CB7 /* MainStoryboard_iPad.storyboard */; };
+		EF7791D7194EA7C800C40CB7 /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = EF7791CB194EA7C800C40CB7 /* LICENSE.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF7791B0194E7A5C00C40CB7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF77919A194E7A5B00C40CB7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF7791A1194E7A5B00C40CB7;
+			remoteInfo = MathMonsters;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF52DB69194FD4F7005EC819 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = Classes/AppDelegate.swift; sourceTree = "<group>"; };
+		EF52DB6B194FD50B005EC819 /* ColorPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ColorPickerViewController.swift; path = Classes/ColorPickerViewController.swift; sourceTree = "<group>"; };
+		EF52DB6C194FD50B005EC819 /* LeftViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LeftViewController.swift; path = Classes/LeftViewController.swift; sourceTree = "<group>"; };
+		EF52DB6D194FD50B005EC819 /* RightViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RightViewController.swift; path = Classes/RightViewController.swift; sourceTree = "<group>"; };
+		EF52DB71194FD512005EC819 /* Monster.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Monster.swift; path = Classes/Monster.swift; sourceTree = "<group>"; };
+		EF52DB73194FD51A005EC819 /* MonsterSelectionDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MonsterSelectionDelegate.swift; path = Classes/MonsterSelectionDelegate.swift; sourceTree = "<group>"; };
+		EF52DB75194FD537005EC819 /* blowgun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = blowgun.png; path = Resources/Images/blowgun.png; sourceTree = "<group>"; };
+		EF52DB76194FD537005EC819 /* fire.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fire.png; path = Resources/Images/fire.png; sourceTree = "<group>"; };
+		EF52DB77194FD537005EC819 /* meetcatbot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = meetcatbot.png; path = Resources/Images/meetcatbot.png; sourceTree = "<group>"; };
+		EF52DB78194FD537005EC819 /* meetdogbot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = meetdogbot.png; path = Resources/Images/meetdogbot.png; sourceTree = "<group>"; };
+		EF52DB79194FD537005EC819 /* meetexplodebot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = meetexplodebot.png; path = Resources/Images/meetexplodebot.png; sourceTree = "<group>"; };
+		EF52DB7A194FD537005EC819 /* meetfirebot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = meetfirebot.png; path = Resources/Images/meetfirebot.png; sourceTree = "<group>"; };
+		EF52DB7B194FD537005EC819 /* meeticebot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = meeticebot.png; path = Resources/Images/meeticebot.png; sourceTree = "<group>"; };
+		EF52DB7C194FD537005EC819 /* meetminitomatobot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = meetminitomatobot.png; path = Resources/Images/meetminitomatobot.png; sourceTree = "<group>"; };
+		EF52DB7D194FD537005EC819 /* ninjastar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ninjastar.png; path = Resources/Images/ninjastar.png; sourceTree = "<group>"; };
+		EF52DB7E194FD537005EC819 /* smoke.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = smoke.png; path = Resources/Images/smoke.png; sourceTree = "<group>"; };
+		EF52DB7F194FD537005EC819 /* sword.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sword.png; path = Resources/Images/sword.png; sourceTree = "<group>"; };
+		EF7791A2194E7A5B00C40CB7 /* MathMonsters.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MathMonsters.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF7791A6194E7A5B00C40CB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF7791A9194E7A5B00C40CB7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EF7791AF194E7A5C00C40CB7 /* MathMonstersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MathMonstersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF7791B4194E7A5C00C40CB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF7791B5194E7A5C00C40CB7 /* MathMonstersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathMonstersTests.swift; sourceTree = "<group>"; };
+		EF7791BF194E7AAE00C40CB7 /* MainStoryboard_iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		EF7791CB194EA7C800C40CB7 /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF77919F194E7A5B00C40CB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF7791AC194E7A5C00C40CB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF779199194E7A5B00C40CB7 = {
+			isa = PBXGroup;
+			children = (
+				EF7791A4194E7A5B00C40CB7 /* MathMonsters */,
+				EF7791B2194E7A5C00C40CB7 /* MathMonstersTests */,
+				EF7791A3194E7A5B00C40CB7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF7791A3194E7A5B00C40CB7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF7791A2194E7A5B00C40CB7 /* MathMonsters.app */,
+				EF7791AF194E7A5C00C40CB7 /* MathMonstersTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF7791A4194E7A5B00C40CB7 /* MathMonsters */ = {
+			isa = PBXGroup;
+			children = (
+				EF52DB69194FD4F7005EC819 /* AppDelegate.swift */,
+				EF825AEE194F99DB00C881B8 /* Views */,
+				EF825AEF194F99EA00C881B8 /* Controllers */,
+				EF825AF0194F99F200C881B8 /* Models */,
+				EF825AF1194F99F900C881B8 /* Protocols */,
+				EF7791A9194E7A5B00C40CB7 /* Images.xcassets */,
+				EF7791A5194E7A5B00C40CB7 /* Supporting Files */,
+				EF7791C7194EA7A500C40CB7 /* Resources */,
+			);
+			path = MathMonsters;
+			sourceTree = "<group>";
+		};
+		EF7791A5194E7A5B00C40CB7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF7791A6194E7A5B00C40CB7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EF7791B2194E7A5C00C40CB7 /* MathMonstersTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF7791B5194E7A5C00C40CB7 /* MathMonstersTests.swift */,
+				EF7791B3194E7A5C00C40CB7 /* Supporting Files */,
+			);
+			path = MathMonstersTests;
+			sourceTree = "<group>";
+		};
+		EF7791B3194E7A5C00C40CB7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF7791B4194E7A5C00C40CB7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EF7791C7194EA7A500C40CB7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EF7791C8194EA7B500C40CB7 /* Images */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		EF7791C8194EA7B500C40CB7 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				EF52DB75194FD537005EC819 /* blowgun.png */,
+				EF52DB76194FD537005EC819 /* fire.png */,
+				EF52DB77194FD537005EC819 /* meetcatbot.png */,
+				EF52DB78194FD537005EC819 /* meetdogbot.png */,
+				EF52DB79194FD537005EC819 /* meetexplodebot.png */,
+				EF52DB7A194FD537005EC819 /* meetfirebot.png */,
+				EF52DB7B194FD537005EC819 /* meeticebot.png */,
+				EF52DB7C194FD537005EC819 /* meetminitomatobot.png */,
+				EF52DB7D194FD537005EC819 /* ninjastar.png */,
+				EF52DB7E194FD537005EC819 /* smoke.png */,
+				EF52DB7F194FD537005EC819 /* sword.png */,
+				EF7791CB194EA7C800C40CB7 /* LICENSE.txt */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		EF825AEE194F99DB00C881B8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EF7791BF194E7AAE00C40CB7 /* MainStoryboard_iPad.storyboard */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		EF825AEF194F99EA00C881B8 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				EF52DB6B194FD50B005EC819 /* ColorPickerViewController.swift */,
+				EF52DB6C194FD50B005EC819 /* LeftViewController.swift */,
+				EF52DB6D194FD50B005EC819 /* RightViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		EF825AF0194F99F200C881B8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EF52DB71194FD512005EC819 /* Monster.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		EF825AF1194F99F900C881B8 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				EF52DB73194FD51A005EC819 /* MonsterSelectionDelegate.swift */,
+			);
+			name = Protocols;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF7791A1194E7A5B00C40CB7 /* MathMonsters */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF7791B9194E7A5C00C40CB7 /* Build configuration list for PBXNativeTarget "MathMonsters" */;
+			buildPhases = (
+				EF77919E194E7A5B00C40CB7 /* Sources */,
+				EF77919F194E7A5B00C40CB7 /* Frameworks */,
+				EF7791A0194E7A5B00C40CB7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MathMonsters;
+			productName = MathMonsters;
+			productReference = EF7791A2194E7A5B00C40CB7 /* MathMonsters.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF7791AE194E7A5C00C40CB7 /* MathMonstersTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF7791BC194E7A5C00C40CB7 /* Build configuration list for PBXNativeTarget "MathMonstersTests" */;
+			buildPhases = (
+				EF7791AB194E7A5C00C40CB7 /* Sources */,
+				EF7791AC194E7A5C00C40CB7 /* Frameworks */,
+				EF7791AD194E7A5C00C40CB7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF7791B1194E7A5C00C40CB7 /* PBXTargetDependency */,
+			);
+			name = MathMonstersTests;
+			productName = MathMonstersTests;
+			productReference = EF7791AF194E7A5C00C40CB7 /* MathMonstersTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF77919A194E7A5B00C40CB7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Alexander Figueroa";
+				TargetAttributes = {
+					EF7791A1194E7A5B00C40CB7 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					EF7791AE194E7A5C00C40CB7 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = EF7791A1194E7A5B00C40CB7;
+					};
+				};
+			};
+			buildConfigurationList = EF77919D194E7A5B00C40CB7 /* Build configuration list for PBXProject "MathMonsters" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EF779199194E7A5B00C40CB7;
+			productRefGroup = EF7791A3194E7A5B00C40CB7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF7791A1194E7A5B00C40CB7 /* MathMonsters */,
+				EF7791AE194E7A5C00C40CB7 /* MathMonstersTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF7791A0194E7A5B00C40CB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF52DB80194FD537005EC819 /* blowgun.png in Resources */,
+				EF52DB81194FD537005EC819 /* fire.png in Resources */,
+				EF52DB86194FD537005EC819 /* meeticebot.png in Resources */,
+				EF52DB8A194FD537005EC819 /* sword.png in Resources */,
+				EF7791C0194E7AAE00C40CB7 /* MainStoryboard_iPad.storyboard in Resources */,
+				EF52DB85194FD537005EC819 /* meetfirebot.png in Resources */,
+				EF7791D7194EA7C800C40CB7 /* LICENSE.txt in Resources */,
+				EF52DB83194FD537005EC819 /* meetdogbot.png in Resources */,
+				EF7791AA194E7A5B00C40CB7 /* Images.xcassets in Resources */,
+				EF52DB84194FD537005EC819 /* meetexplodebot.png in Resources */,
+				EF52DB89194FD537005EC819 /* smoke.png in Resources */,
+				EF52DB87194FD537005EC819 /* meetminitomatobot.png in Resources */,
+				EF52DB88194FD537005EC819 /* ninjastar.png in Resources */,
+				EF52DB82194FD537005EC819 /* meetcatbot.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF7791AD194E7A5C00C40CB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF77919E194E7A5B00C40CB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF52DB74194FD51A005EC819 /* MonsterSelectionDelegate.swift in Sources */,
+				EF52DB6E194FD50B005EC819 /* ColorPickerViewController.swift in Sources */,
+				EF52DB6F194FD50B005EC819 /* LeftViewController.swift in Sources */,
+				EF52DB6A194FD4F7005EC819 /* AppDelegate.swift in Sources */,
+				EF52DB70194FD50B005EC819 /* RightViewController.swift in Sources */,
+				EF52DB72194FD512005EC819 /* Monster.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF7791AB194E7A5C00C40CB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF7791B6194E7A5C00C40CB7 /* MathMonstersTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF7791B1194E7A5C00C40CB7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF7791A1194E7A5B00C40CB7 /* MathMonsters */;
+			targetProxy = EF7791B0194E7A5C00C40CB7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EF7791B7194E7A5C00C40CB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		EF7791B8194E7A5C00C40CB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF7791BA194E7A5C00C40CB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = MathMonsters/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EF7791BB194E7A5C00C40CB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = MathMonsters/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EF7791BD194E7A5C00C40CB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MathMonsters.app/MathMonsters";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MathMonstersTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		EF7791BE194E7A5C00C40CB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MathMonsters.app/MathMonsters";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MathMonstersTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF77919D194E7A5B00C40CB7 /* Build configuration list for PBXProject "MathMonsters" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF7791B7194E7A5C00C40CB7 /* Debug */,
+				EF7791B8194E7A5C00C40CB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF7791B9194E7A5C00C40CB7 /* Build configuration list for PBXNativeTarget "MathMonsters" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF7791BA194E7A5C00C40CB7 /* Debug */,
+				EF7791BB194E7A5C00C40CB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF7791BC194E7A5C00C40CB7 /* Build configuration list for PBXNativeTarget "MathMonstersTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF7791BD194E7A5C00C40CB7 /* Debug */,
+				EF7791BE194E7A5C00C40CB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF77919A194E7A5B00C40CB7 /* Project object */;
+}

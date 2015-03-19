@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>name</key>
+		<string>Tyrion Lannister</string>
+		<key>description</key>
+		<string>The most awesome character in GOT, from house Lannister.. Well known for his wit</string>
+		<key>image</key>
+		<string>Tyrion.jpeg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Arya Stark</string>
+		<key>description</key>
+		<string>A spirited girl interested in fighting and exploration, unlike her older sister, Sansa. Arya wants to learn how to fight with a sword and ride in tourneys, which annoys Sansa, who enjoys the more traditional pursuits of a noblewoman. Arya is particularly close to her half brother Jon Snow, who encourages her martial pursuits. Jon Snow gives Arya her first sword, Needle, as a gift. Throughout her travels, Arya displays great resourcefulness, cunning, and an unflinching ability to accept hard necessity. As the series progresses, she becomes increasingly ruthless, committing multiple acts of murder with little hesitation or remorse.</string>
+		<key>image</key>
+		<string>Arya-Stark.jpg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Daenerys Targaryen</string>
+		<key>description</key>
+		<string>This Mother of Dragons. A Breaker of Chains, and above all a rescuer. A righteous heir to the Iron throne</string>
+		<key>image</key>
+		<string>Daenerys-Targaryen.jpg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Oberyn Martell</string>
+		<key>description</key>
+		<string>Also known as the Red-VIper... Famous quotes &quot;Elia Martell, Princess of Dorne, you raped her. You murdered her. You killed her children.&quot;  (Mind-Blown)</string>
+		<key>image</key>
+		<string>oberyn-martell.jpg</string>
+	</dict>
+</array>
+</plist>

@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7132984A1929ACA3001FA41E /* libSharedCore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 713298471929AC90001FA41E /* libSharedCore.a */; };
+		71A253F21929441500A9FF43 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71A253F11929441500A9FF43 /* Foundation.framework */; };
+		71A253F41929441500A9FF43 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71A253F31929441500A9FF43 /* CoreGraphics.framework */; };
+		71A253F61929441500A9FF43 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71A253F51929441500A9FF43 /* UIKit.framework */; };
+		71A253FC1929441500A9FF43 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 71A253FA1929441500A9FF43 /* InfoPlist.strings */; };
+		71A253FE1929441500A9FF43 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 71A253FD1929441500A9FF43 /* main.m */; };
+		71A254021929441500A9FF43 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 71A254011929441500A9FF43 /* AppDelegate.m */; };
+		71A254101929441500A9FF43 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71A2540F1929441500A9FF43 /* Images.xcassets */; };
+		71A254181929441500A9FF43 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71A253F11929441500A9FF43 /* Foundation.framework */; };
+		71A254191929441500A9FF43 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71A253F51929441500A9FF43 /* UIKit.framework */; };
+		71A2542D1929442000A9FF43 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71A2542C1929442000A9FF43 /* Accounts.framework */; };
+		71A2542F1929443600A9FF43 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71A2542E1929443600A9FF43 /* Social.framework */; };
+		71A254361929445C00A9FF43 /* RostersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71A254311929445C00A9FF43 /* RostersViewController.m */; };
+		71A254371929445C00A9FF43 /* ScheduleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71A254331929445C00A9FF43 /* ScheduleViewController.m */; };
+		71A254381929445C00A9FF43 /* TwitterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71A254351929445C00A9FF43 /* TwitterViewController.m */; };
+		71A2543B1929446500A9FF43 /* HeadlinesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71A2543A1929446500A9FF43 /* HeadlinesViewController.m */; };
+		71A254801929513000A9FF43 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71A254031929441500A9FF43 /* Main_iPhone.storyboard */; };
+		71A254811929513600A9FF43 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71A254061929441500A9FF43 /* Main_iPad.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		713298461929AC90001FA41E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 713298411929AC90001FA41E /* SharedCore.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 713297F11929AAC6001FA41E;
+			remoteInfo = SharedCore;
+		};
+		713298481929AC90001FA41E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 713298411929AC90001FA41E /* SharedCore.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 713298011929AAC6001FA41E;
+			remoteInfo = SharedCoreTests;
+		};
+		71A2541A1929441500A9FF43 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 71A253E61929441500A9FF43 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 71A253ED1929441500A9FF43;
+			remoteInfo = "Noles Football";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		713298411929AC90001FA41E /* SharedCore.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SharedCore.xcodeproj; path = ../SharedCore/SharedCore.xcodeproj; sourceTree = "<group>"; };
+		71A253EE1929441500A9FF43 /* Noles Football.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Noles Football.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		71A253F11929441500A9FF43 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		71A253F31929441500A9FF43 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		71A253F51929441500A9FF43 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		71A253F91929441500A9FF43 /* Noles Football-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Noles Football-Info.plist"; sourceTree = "<group>"; };
+		71A253FB1929441500A9FF43 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		71A253FD1929441500A9FF43 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		71A253FF1929441500A9FF43 /* Noles Football-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Noles Football-Prefix.pch"; sourceTree = "<group>"; };
+		71A254001929441500A9FF43 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		71A254011929441500A9FF43 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		71A254041929441500A9FF43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		71A254071929441500A9FF43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		71A2540F1929441500A9FF43 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		71A254151929441500A9FF43 /* Noles FootballTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Noles FootballTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		71A2542C1929442000A9FF43 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		71A2542E1929443600A9FF43 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		71A254301929445C00A9FF43 /* RostersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RostersViewController.h; sourceTree = "<group>"; };
+		71A254311929445C00A9FF43 /* RostersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RostersViewController.m; sourceTree = "<group>"; };
+		71A254321929445C00A9FF43 /* ScheduleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScheduleViewController.h; sourceTree = "<group>"; };
+		71A254331929445C00A9FF43 /* ScheduleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScheduleViewController.m; sourceTree = "<group>"; };
+		71A254341929445C00A9FF43 /* TwitterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwitterViewController.h; sourceTree = "<group>"; };
+		71A254351929445C00A9FF43 /* TwitterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwitterViewController.m; sourceTree = "<group>"; };
+		71A254391929446500A9FF43 /* HeadlinesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeadlinesViewController.h; sourceTree = "<group>"; };
+		71A2543A1929446500A9FF43 /* HeadlinesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeadlinesViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		71A253EB1929441500A9FF43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7132984A1929ACA3001FA41E /* libSharedCore.a in Frameworks */,
+				71A2542F1929443600A9FF43 /* Social.framework in Frameworks */,
+				71A2542D1929442000A9FF43 /* Accounts.framework in Frameworks */,
+				71A253F41929441500A9FF43 /* CoreGraphics.framework in Frameworks */,
+				71A253F61929441500A9FF43 /* UIKit.framework in Frameworks */,
+				71A253F21929441500A9FF43 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71A254121929441500A9FF43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71A254191929441500A9FF43 /* UIKit.framework in Frameworks */,
+				71A254181929441500A9FF43 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		713298421929AC90001FA41E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				713298471929AC90001FA41E /* libSharedCore.a */,
+				713298491929AC90001FA41E /* SharedCoreTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		71A253E51929441500A9FF43 = {
+			isa = PBXGroup;
+			children = (
+				713298411929AC90001FA41E /* SharedCore.xcodeproj */,
+				71A253F71929441500A9FF43 /* Noles Football */,
+				71A253F01929441500A9FF43 /* Frameworks */,
+				71A253EF1929441500A9FF43 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		71A253EF1929441500A9FF43 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				71A253EE1929441500A9FF43 /* Noles Football.app */,
+				71A254151929441500A9FF43 /* Noles FootballTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		71A253F01929441500A9FF43 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				71A2542E1929443600A9FF43 /* Social.framework */,
+				71A2542C1929442000A9FF43 /* Accounts.framework */,
+				71A253F11929441500A9FF43 /* Foundation.framework */,
+				71A253F31929441500A9FF43 /* CoreGraphics.framework */,
+				71A253F51929441500A9FF43 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		71A253F71929441500A9FF43 /* Noles Football */ = {
+			isa = PBXGroup;
+			children = (
+				71A254001929441500A9FF43 /* AppDelegate.h */,
+				71A254011929441500A9FF43 /* AppDelegate.m */,
+				71A254031929441500A9FF43 /* Main_iPhone.storyboard */,
+				71A254061929441500A9FF43 /* Main_iPad.storyboard */,
+				71A2540F1929441500A9FF43 /* Images.xcassets */,
+				71A254391929446500A9FF43 /* HeadlinesViewController.h */,
+				71A2543A1929446500A9FF43 /* HeadlinesViewController.m */,
+				71A254301929445C00A9FF43 /* RostersViewController.h */,
+				71A254311929445C00A9FF43 /* RostersViewController.m */,
+				71A254321929445C00A9FF43 /* ScheduleViewController.h */,
+				71A254331929445C00A9FF43 /* ScheduleViewController.m */,
+				71A254341929445C00A9FF43 /* TwitterViewController.h */,
+				71A254351929445C00A9FF43 /* TwitterViewController.m */,
+				71A253F81929441500A9FF43 /* Supporting Files */,
+			);
+			path = "Noles Football";
+			sourceTree = "<group>";
+		};
+		71A253F81929441500A9FF43 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				71A253F91929441500A9FF43 /* Noles Football-Info.plist */,
+				71A253FA1929441500A9FF43 /* InfoPlist.strings */,
+				71A253FD1929441500A9FF43 /* main.m */,
+				71A253FF1929441500A9FF43 /* Noles Football-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		71A253ED1929441500A9FF43 /* Noles Football */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71A254261929441500A9FF43 /* Build configuration list for PBXNativeTarget "Noles Football" */;
+			buildPhases = (
+				71A253EA1929441500A9FF43 /* Sources */,
+				71A253EB1929441500A9FF43 /* Frameworks */,
+				71A253EC1929441500A9FF43 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Noles Football";
+			productName = "Noles Football";
+			productReference = 71A253EE1929441500A9FF43 /* Noles Football.app */;
+			productType = "com.apple.product-type.application";
+		};
+		71A254141929441500A9FF43 /* Noles FootballTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71A254291929441500A9FF43 /* Build configuration list for PBXNativeTarget "Noles FootballTests" */;
+			buildPhases = (
+				71A254111929441500A9FF43 /* Sources */,
+				71A254121929441500A9FF43 /* Frameworks */,
+				71A254131929441500A9FF43 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				71A2541B1929441500A9FF43 /* PBXTargetDependency */,
+			);
+			name = "Noles FootballTests";
+			productName = "Noles FootballTests";
+			productReference = 71A254151929441500A9FF43 /* Noles FootballTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		71A253E61929441500A9FF43 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Jonathan Steele";
+				TargetAttributes = {
+					71A254141929441500A9FF43 = {
+						TestTargetID = 71A253ED1929441500A9FF43;
+					};
+				};
+			};
+			buildConfigurationList = 71A253E91929441500A9FF43 /* Build configuration list for PBXProject "Noles Football" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 71A253E51929441500A9FF43;
+			productRefGroup = 71A253EF1929441500A9FF43 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 713298421929AC90001FA41E /* Products */;
+					ProjectRef = 713298411929AC90001FA41E /* SharedCore.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				71A253ED1929441500A9FF43 /* Noles Football */,
+				71A254141929441500A9FF43 /* Noles FootballTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		713298471929AC90001FA41E /* libSharedCore.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libSharedCore.a;
+			remoteRef = 713298461929AC90001FA41E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		713298491929AC90001FA41E /* SharedCoreTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = SharedCoreTests.xctest;
+			remoteRef = 713298481929AC90001FA41E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		71A253EC1929441500A9FF43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71A254811929513600A9FF43 /* Main_iPad.storyboard in Resources */,
+				71A254801929513000A9FF43 /* Main_iPhone.storyboard in Resources */,
+				71A254101929441500A9FF43 /* Images.xcassets in Resources */,
+				71A253FC1929441500A9FF43 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71A254131929441500A9FF43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		71A253EA1929441500A9FF43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71A254021929441500A9FF43 /* AppDelegate.m in Sources */,
+				71A253FE1929441500A9FF43 /* main.m in Sources */,
+				71A254361929445C00A9FF43 /* RostersViewController.m in Sources */,
+				71A254381929445C00A9FF43 /* TwitterViewController.m in Sources */,
+				71A2543B1929446500A9FF43 /* HeadlinesViewController.m in Sources */,
+				71A254371929445C00A9FF43 /* ScheduleViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71A254111929441500A9FF43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		71A2541B1929441500A9FF43 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 71A253ED1929441500A9FF43 /* Noles Football */;
+			targetProxy = 71A2541A1929441500A9FF43 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		71A253FA1929441500A9FF43 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71A253FB1929441500A9FF43 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		71A254031929441500A9FF43 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71A254041929441500A9FF43 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		71A254061929441500A9FF43 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71A254071929441500A9FF43 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		71A254241929441500A9FF43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		71A254251929441500A9FF43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		71A254271929441500A9FF43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Noles Football/Noles Football-Prefix.pch";
+				INFOPLIST_FILE = "Noles Football/Noles Football-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = (
+					"-lxml2",
+					"-ObjC",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		71A254281929441500A9FF43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Noles Football/Noles Football-Prefix.pch";
+				INFOPLIST_FILE = "Noles Football/Noles Football-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = (
+					"-lxml2",
+					"-ObjC",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		71A2542A1929441500A9FF43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Noles Football.app/Noles Football";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Noles Football/Noles Football-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Noles FootballTests/Noles FootballTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		71A2542B1929441500A9FF43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Noles Football.app/Noles Football";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Noles Football/Noles Football-Prefix.pch";
+				INFOPLIST_FILE = "Noles FootballTests/Noles FootballTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		71A253E91929441500A9FF43 /* Build configuration list for PBXProject "Noles Football" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71A254241929441500A9FF43 /* Debug */,
+				71A254251929441500A9FF43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71A254261929441500A9FF43 /* Build configuration list for PBXNativeTarget "Noles Football" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71A254271929441500A9FF43 /* Debug */,
+				71A254281929441500A9FF43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71A254291929441500A9FF43 /* Build configuration list for PBXNativeTarget "Noles FootballTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71A2542A1929441500A9FF43 /* Debug */,
+				71A2542B1929441500A9FF43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 71A253E61929441500A9FF43 /* Project object */;
+}

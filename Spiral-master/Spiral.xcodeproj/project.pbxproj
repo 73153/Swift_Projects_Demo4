@@ -1,0 +1,794 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A41591E719CC71C500C3420B /* GameKitHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = A41591E519CC71C500C3420B /* GameKitHelper.m */; };
+		A424E2F119E78176007FE1C1 /* Background.swift in Sources */ = {isa = PBXBuildFile; fileRef = A424E2F019E78176007FE1C1 /* Background.swift */; };
+		A434A14B1976955000F4C94B /* ShareButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A434A14A1976955000F4C94B /* ShareButton.swift */; };
+		A434A14F19769F4600F4C94B /* ReplayButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A434A14E19769F4600F4C94B /* ReplayButton.swift */; };
+		A45A65E01986073B00EA40D7 /* SoundManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45A65DF1986073B00EA40D7 /* SoundManager.swift */; };
+		A45A65E419860AD000EA40D7 /* pew-pew-lei.caf in Resources */ = {isa = PBXBuildFile; fileRef = A45A65E319860AD000EA40D7 /* pew-pew-lei.caf */; };
+		A45A9FA319F3E7250087C192 /* HelpScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45A9FA219F3E7250087C192 /* HelpScene.swift */; };
+		A45A9FA519F3F1640087C192 /* HelpButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45A9FA419F3F1640087C192 /* HelpButton.swift */; };
+		A4605B6C19F5235500F8DD96 /* Launch Screen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4605B6E19F5235500F8DD96 /* Launch Screen.xib */; };
+		A46D8C011976BF9400A32924 /* Shield.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46D8C001976BF9400A32924 /* Shield.swift */; };
+		A46D8C031976C3B800A32924 /* ShieldContactVisitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46D8C021976C3B800A32924 /* ShieldContactVisitor.swift */; };
+		A478774A197113D000F6F611 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4787749197113D000F6F611 /* AppDelegate.swift */; };
+		A478774C197113D000F6F611 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = A478774B197113D000F6F611 /* GameScene.sks */; };
+		A478774E197113D000F6F611 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = A478774D197113D000F6F611 /* GameScene.swift */; };
+		A4787750197113D000F6F611 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A478774F197113D000F6F611 /* GameViewController.swift */; };
+		A4787753197113D000F6F611 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4787751197113D000F6F611 /* Main.storyboard */; };
+		A4787755197113D000F6F611 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4787754197113D000F6F611 /* Images.xcassets */; };
+		A4787761197113D000F6F611 /* SpiralTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4787760197113D000F6F611 /* SpiralTests.swift */; };
+		A478776B197113DB00F6F611 /* Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = A478776A197113DB00F6F611 /* Map.swift */; };
+		A478777119712E9D00F6F611 /* Shape.swift in Sources */ = {isa = PBXBuildFile; fileRef = A478777019712E9D00F6F611 /* Shape.swift */; };
+		A479DFA119F4DC9F000DF2AF /* HelpScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = A479DFA319F4DC9F000DF2AF /* HelpScene.sks */; };
+		A47D3D0D1973DBE4005AF736 /* ContactVisitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47D3D0C1973DBE4005AF736 /* ContactVisitor.swift */; };
+		A47D3D1619740AA3005AF736 /* PlayerContactVisitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47D3D1519740AA3005AF736 /* PlayerContactVisitor.swift */; };
+		A47D3D18197415C1005AF736 /* KillerContactVisitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47D3D17197415C1005AF736 /* KillerContactVisitor.swift */; };
+		A47D3D1A19741859005AF736 /* ScoreContactVisitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47D3D1919741859005AF736 /* ScoreContactVisitor.swift */; };
+		A47D3D1C19741B04005AF736 /* Killer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47D3D1B19741B04005AF736 /* Killer.swift */; };
+		A47D3D1E19741E54005AF736 /* Score.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47D3D1D19741E54005AF736 /* Score.swift */; };
+		A47E78E619F39C4E003D5143 /* vortexShader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = A47E78E519F39C4E003D5143 /* vortexShader.fsh */; };
+		A48F921219724362007BDAE4 /* NodeCategories.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48F921119724362007BDAE4 /* NodeCategories.swift */; };
+		A48F921419724822007BDAE4 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48F921319724822007BDAE4 /* Player.swift */; };
+		A490225E19B9D8EE009114ED /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A434A14C197696BC00F4C94B /* Social.framework */; };
+		A4B05A3A19E9642900B303C0 /* spiral.sketch in Resources */ = {isa = PBXBuildFile; fileRef = A4B05A3919E9642900B303C0 /* spiral.sketch */; };
+		A4B104AD19D6DB30008BD1BA /* jump.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A4B104AC19D6DB30008BD1BA /* jump.mp3 */; };
+		A4B104B219D6DF01008BD1BA /* bg.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A4B104B119D6DF01008BD1BA /* bg.mp3 */; };
+		A4B104B619D6ECEF008BD1BA /* gameover.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A4B104B519D6ECEF008BD1BA /* gameover.mp3 */; };
+		A4B104B819D6F166008BD1BA /* levelup.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A4B104B719D6F166008BD1BA /* levelup.mp3 */; };
+		A4B104BA19D6F2C0008BD1BA /* score.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A4B104B919D6F2C0008BD1BA /* score.mp3 */; };
+		A4B104BC19D6F3A0008BD1BA /* shield.wav in Resources */ = {isa = PBXBuildFile; fileRef = A4B104BB19D6F3A0008BD1BA /* shield.wav */; };
+		A4B104BE19D6F5EA008BD1BA /* killer.wav in Resources */ = {isa = PBXBuildFile; fileRef = A4B104BD19D6F5EA008BD1BA /* killer.wav */; };
+		A4B2788519EA781C00A2D065 /* GameCenterButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B2788419EA781C00A2D065 /* GameCenterButton.swift */; };
+		A4EEE3B619F6917900A43108 /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A4EEE3B519F6917900A43108 /* libWeChatSDK.a */; };
+		A4EEE3B919F6A45200A43108 /* SendWX.m in Sources */ = {isa = PBXBuildFile; fileRef = A4EEE3B819F6A45200A43108 /* SendWX.m */; };
+		A4F3C60A19E8E990000514AC /* Reaper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F3C60919E8E990000514AC /* Reaper.swift */; };
+		A4F3C60C19E8EAF7000514AC /* ReaperContactVisitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F3C60B19E8EAF7000514AC /* ReaperContactVisitor.swift */; };
+		A4F3C61019E90FFF000514AC /* Rope.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F3C60F19E90FFF000514AC /* Rope.swift */; };
+		A4F92B8719DCF69600C87D0E /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = A4F92B8919DCF69600C87D0E /* Localizable.strings */; };
+		A4FF927019751AA50060CE6D /* VisitablePhysicsBody.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FF926F19751AA50060CE6D /* VisitablePhysicsBody.swift */; };
+		A4FF9274197526830060CE6D /* Display.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FF9273197526830060CE6D /* Display.swift */; };
+		A4FF9276197529B50060CE6D /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FF9275197529B50060CE6D /* Data.swift */; };
+		D43F5311657C4A8E9E4CECD3 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5840075B84044E92A52535DA /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A478775B197113D000F6F611 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A478773C197113D000F6F611 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4787743197113D000F6F611;
+			remoteInfo = Spiral;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5840075B84044E92A52535DA /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BCC118355E4463D84D833AC /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		A41591E419CC71C500C3420B /* GameKitHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameKitHelper.h; sourceTree = "<group>"; };
+		A41591E519CC71C500C3420B /* GameKitHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameKitHelper.m; sourceTree = "<group>"; };
+		A41591E619CC71C500C3420B /* GameConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameConstants.h; sourceTree = "<group>"; };
+		A424E2F019E78176007FE1C1 /* Background.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Background.swift; sourceTree = "<group>"; };
+		A434A14A1976955000F4C94B /* ShareButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShareButton.swift; sourceTree = "<group>"; };
+		A434A14C197696BC00F4C94B /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		A434A14E19769F4600F4C94B /* ReplayButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReplayButton.swift; sourceTree = "<group>"; };
+		A45A65DF1986073B00EA40D7 /* SoundManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundManager.swift; sourceTree = "<group>"; };
+		A45A65E319860AD000EA40D7 /* pew-pew-lei.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "pew-pew-lei.caf"; sourceTree = "<group>"; };
+		A45A9FA219F3E7250087C192 /* HelpScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelpScene.swift; sourceTree = "<group>"; };
+		A45A9FA419F3F1640087C192 /* HelpButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelpButton.swift; sourceTree = "<group>"; };
+		A4605B6D19F5235500F8DD96 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = "zh-Hans"; path = "zh-Hans.lproj/Launch Screen.xib"; sourceTree = "<group>"; };
+		A4605B6F19F5235700F8DD96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = "Base.lproj/Launch Screen.xib"; sourceTree = "<group>"; };
+		A46D8C001976BF9400A32924 /* Shield.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shield.swift; sourceTree = "<group>"; };
+		A46D8C021976C3B800A32924 /* ShieldContactVisitor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShieldContactVisitor.swift; sourceTree = "<group>"; };
+		A4787744197113D000F6F611 /* Spiral.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Spiral.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4787748197113D000F6F611 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4787749197113D000F6F611 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A478774B197113D000F6F611 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		A478774D197113D000F6F611 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		A478774F197113D000F6F611 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		A4787752197113D000F6F611 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A4787754197113D000F6F611 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A478775A197113D000F6F611 /* SpiralTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpiralTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A478775F197113D000F6F611 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4787760197113D000F6F611 /* SpiralTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpiralTests.swift; sourceTree = "<group>"; };
+		A478776A197113DB00F6F611 /* Map.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Map.swift; sourceTree = "<group>"; };
+		A478777019712E9D00F6F611 /* Shape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shape.swift; sourceTree = "<group>"; };
+		A479DFA219F4DC9F000DF2AF /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = "zh-Hans"; path = "zh-Hans.lproj/HelpScene.sks"; sourceTree = "<group>"; };
+		A47D3D0C1973DBE4005AF736 /* ContactVisitor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactVisitor.swift; sourceTree = "<group>"; };
+		A47D3D0E1973F522005AF736 /* Spiral-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Spiral-Bridging-Header.h"; sourceTree = "<group>"; };
+		A47D3D1519740AA3005AF736 /* PlayerContactVisitor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerContactVisitor.swift; sourceTree = "<group>"; };
+		A47D3D17197415C1005AF736 /* KillerContactVisitor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KillerContactVisitor.swift; sourceTree = "<group>"; };
+		A47D3D1919741859005AF736 /* ScoreContactVisitor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScoreContactVisitor.swift; sourceTree = "<group>"; };
+		A47D3D1B19741B04005AF736 /* Killer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Killer.swift; sourceTree = "<group>"; };
+		A47D3D1D19741E54005AF736 /* Score.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Score.swift; sourceTree = "<group>"; };
+		A47E78E519F39C4E003D5143 /* vortexShader.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = vortexShader.fsh; sourceTree = "<group>"; };
+		A48F921119724362007BDAE4 /* NodeCategories.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NodeCategories.swift; sourceTree = "<group>"; };
+		A48F921319724822007BDAE4 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		A490225A19B9D89F009114ED /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A490225C19B9D8A8009114ED /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		A4B05A3919E9642900B303C0 /* spiral.sketch */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = spiral.sketch; sourceTree = "<group>"; };
+		A4B104AC19D6DB30008BD1BA /* jump.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = jump.mp3; sourceTree = "<group>"; };
+		A4B104B119D6DF01008BD1BA /* bg.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bg.mp3; sourceTree = "<group>"; };
+		A4B104B519D6ECEF008BD1BA /* gameover.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = gameover.mp3; sourceTree = "<group>"; };
+		A4B104B719D6F166008BD1BA /* levelup.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = levelup.mp3; sourceTree = "<group>"; };
+		A4B104B919D6F2C0008BD1BA /* score.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = score.mp3; sourceTree = "<group>"; };
+		A4B104BB19D6F3A0008BD1BA /* shield.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = shield.wav; sourceTree = "<group>"; };
+		A4B104BD19D6F5EA008BD1BA /* killer.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = killer.wav; sourceTree = "<group>"; };
+		A4B2788419EA781C00A2D065 /* GameCenterButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameCenterButton.swift; sourceTree = "<group>"; };
+		A4D28BB619F7723F00E1A46B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = en; path = en.lproj/HelpScene.sks; sourceTree = "<group>"; };
+		A4D28BB719F7724100E1A46B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = Base; path = Base.lproj/HelpScene.sks; sourceTree = "<group>"; };
+		A4EEE3B319F6917900A43108 /* WXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
+		A4EEE3B419F6917900A43108 /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
+		A4EEE3B519F6917900A43108 /* libWeChatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeChatSDK.a; sourceTree = "<group>"; };
+		A4EEE3B719F6A45200A43108 /* SendWX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SendWX.h; sourceTree = "<group>"; };
+		A4EEE3B819F6A45200A43108 /* SendWX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SendWX.m; sourceTree = "<group>"; };
+		A4F3C60919E8E990000514AC /* Reaper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reaper.swift; sourceTree = "<group>"; };
+		A4F3C60B19E8EAF7000514AC /* ReaperContactVisitor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReaperContactVisitor.swift; sourceTree = "<group>"; };
+		A4F3C60F19E90FFF000514AC /* Rope.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Rope.swift; sourceTree = "<group>"; };
+		A4F92B8419DCF65900C87D0E /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		A4F92B8819DCF69600C87D0E /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		A4FF926F19751AA50060CE6D /* VisitablePhysicsBody.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisitablePhysicsBody.swift; sourceTree = "<group>"; };
+		A4FF9273197526830060CE6D /* Display.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Display.swift; sourceTree = "<group>"; };
+		A4FF9275197529B50060CE6D /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A4787741197113D000F6F611 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A490225E19B9D8EE009114ED /* Social.framework in Frameworks */,
+				D43F5311657C4A8E9E4CECD3 /* libPods.a in Frameworks */,
+				A4EEE3B619F6917900A43108 /* libWeChatSDK.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4787757197113D000F6F611 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A41591E319CC71AD00C3420B /* GameKitFiles */ = {
+			isa = PBXGroup;
+			children = (
+				A41591E419CC71C500C3420B /* GameKitHelper.h */,
+				A41591E519CC71C500C3420B /* GameKitHelper.m */,
+				A41591E619CC71C500C3420B /* GameConstants.h */,
+			);
+			name = GameKitFiles;
+			sourceTree = "<group>";
+		};
+		A434A1491976952800F4C94B /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				A434A14A1976955000F4C94B /* ShareButton.swift */,
+				A434A14E19769F4600F4C94B /* ReplayButton.swift */,
+				A4B2788419EA781C00A2D065 /* GameCenterButton.swift */,
+				A45A9FA419F3F1640087C192 /* HelpButton.swift */,
+			);
+			name = Buttons;
+			sourceTree = "<group>";
+		};
+		A45A65E2198607F400EA40D7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A47E78E519F39C4E003D5143 /* vortexShader.fsh */,
+				A4B05A3919E9642900B303C0 /* spiral.sketch */,
+				A4B104BD19D6F5EA008BD1BA /* killer.wav */,
+				A4B104BB19D6F3A0008BD1BA /* shield.wav */,
+				A4B104B919D6F2C0008BD1BA /* score.mp3 */,
+				A4B104B719D6F166008BD1BA /* levelup.mp3 */,
+				A4B104B519D6ECEF008BD1BA /* gameover.mp3 */,
+				A4B104B119D6DF01008BD1BA /* bg.mp3 */,
+				A4B104AC19D6DB30008BD1BA /* jump.mp3 */,
+				A45A65E319860AD000EA40D7 /* pew-pew-lei.caf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		A478773B197113D000F6F611 = {
+			isa = PBXGroup;
+			children = (
+				A490225C19B9D8A8009114ED /* SpriteKit.framework */,
+				A490225A19B9D89F009114ED /* Foundation.framework */,
+				A434A14C197696BC00F4C94B /* Social.framework */,
+				A4787746197113D000F6F611 /* Spiral */,
+				A478775D197113D000F6F611 /* SpiralTests */,
+				A4787745197113D000F6F611 /* Products */,
+				F7CB57B3A321435B8FBA1FD7 /* Frameworks */,
+				8BCC118355E4463D84D833AC /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		A4787745197113D000F6F611 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4787744197113D000F6F611 /* Spiral.app */,
+				A478775A197113D000F6F611 /* SpiralTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A4787746197113D000F6F611 /* Spiral */ = {
+			isa = PBXGroup;
+			children = (
+				A41591E319CC71AD00C3420B /* GameKitFiles */,
+				A45A65E2198607F400EA40D7 /* Resources */,
+				A434A1491976952800F4C94B /* Buttons */,
+				A47D3D1F19741F6D005AF736 /* Scenes */,
+				A47D3D12197407AC005AF736 /* Util */,
+				A47D3D0B1973DBA4005AF736 /* Visitors */,
+				A47D3D0A1973D9F5005AF736 /* Nodes */,
+				A4787749197113D000F6F611 /* AppDelegate.swift */,
+				A478774F197113D000F6F611 /* GameViewController.swift */,
+				A4787751197113D000F6F611 /* Main.storyboard */,
+				A47D3D0E1973F522005AF736 /* Spiral-Bridging-Header.h */,
+				A4787754197113D000F6F611 /* Images.xcassets */,
+				A4787747197113D000F6F611 /* Supporting Files */,
+				A4F92B8919DCF69600C87D0E /* Localizable.strings */,
+				A4605B6E19F5235500F8DD96 /* Launch Screen.xib */,
+			);
+			path = Spiral;
+			sourceTree = "<group>";
+		};
+		A4787747197113D000F6F611 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A4787748197113D000F6F611 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A478775D197113D000F6F611 /* SpiralTests */ = {
+			isa = PBXGroup;
+			children = (
+				A4787760197113D000F6F611 /* SpiralTests.swift */,
+				A478775E197113D000F6F611 /* Supporting Files */,
+			);
+			path = SpiralTests;
+			sourceTree = "<group>";
+		};
+		A478775E197113D000F6F611 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A478775F197113D000F6F611 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A47D3D0A1973D9F5005AF736 /* Nodes */ = {
+			isa = PBXGroup;
+			children = (
+				A4F3C60E19E8FD18000514AC /* Views */,
+				A4F3C60D19E8FCEB000514AC /* Shapes */,
+			);
+			name = Nodes;
+			sourceTree = "<group>";
+		};
+		A47D3D0B1973DBA4005AF736 /* Visitors */ = {
+			isa = PBXGroup;
+			children = (
+				A47D3D0C1973DBE4005AF736 /* ContactVisitor.swift */,
+				A47D3D1519740AA3005AF736 /* PlayerContactVisitor.swift */,
+				A46D8C021976C3B800A32924 /* ShieldContactVisitor.swift */,
+				A47D3D17197415C1005AF736 /* KillerContactVisitor.swift */,
+				A47D3D1919741859005AF736 /* ScoreContactVisitor.swift */,
+				A4F3C60B19E8EAF7000514AC /* ReaperContactVisitor.swift */,
+			);
+			name = Visitors;
+			sourceTree = "<group>";
+		};
+		A47D3D12197407AC005AF736 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				A4EEE3B219F6916600A43108 /* Weixin */,
+				A4FF9275197529B50060CE6D /* Data.swift */,
+				A4FF926F19751AA50060CE6D /* VisitablePhysicsBody.swift */,
+				A48F921119724362007BDAE4 /* NodeCategories.swift */,
+				A45A65DF1986073B00EA40D7 /* SoundManager.swift */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
+		A47D3D1F19741F6D005AF736 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				A478774D197113D000F6F611 /* GameScene.swift */,
+				A478774B197113D000F6F611 /* GameScene.sks */,
+				A45A9FA219F3E7250087C192 /* HelpScene.swift */,
+				A479DFA319F4DC9F000DF2AF /* HelpScene.sks */,
+			);
+			name = Scenes;
+			sourceTree = "<group>";
+		};
+		A4EEE3B219F6916600A43108 /* Weixin */ = {
+			isa = PBXGroup;
+			children = (
+				A4EEE3B319F6917900A43108 /* WXApi.h */,
+				A4EEE3B419F6917900A43108 /* WXApiObject.h */,
+				A4EEE3B519F6917900A43108 /* libWeChatSDK.a */,
+				A4EEE3B719F6A45200A43108 /* SendWX.h */,
+				A4EEE3B819F6A45200A43108 /* SendWX.m */,
+			);
+			name = Weixin;
+			sourceTree = "<group>";
+		};
+		A4F3C60D19E8FCEB000514AC /* Shapes */ = {
+			isa = PBXGroup;
+			children = (
+				A478777019712E9D00F6F611 /* Shape.swift */,
+				A48F921319724822007BDAE4 /* Player.swift */,
+				A47D3D1B19741B04005AF736 /* Killer.swift */,
+				A47D3D1D19741E54005AF736 /* Score.swift */,
+				A46D8C001976BF9400A32924 /* Shield.swift */,
+				A4F3C60919E8E990000514AC /* Reaper.swift */,
+			);
+			name = Shapes;
+			sourceTree = "<group>";
+		};
+		A4F3C60E19E8FD18000514AC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A478776A197113DB00F6F611 /* Map.swift */,
+				A4FF9273197526830060CE6D /* Display.swift */,
+				A424E2F019E78176007FE1C1 /* Background.swift */,
+				A4F3C60F19E90FFF000514AC /* Rope.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		F7CB57B3A321435B8FBA1FD7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5840075B84044E92A52535DA /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A4787743197113D000F6F611 /* Spiral */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4787764197113D000F6F611 /* Build configuration list for PBXNativeTarget "Spiral" */;
+			buildPhases = (
+				63787A5A92E649D785F1E95B /* Check Pods Manifest.lock */,
+				A4787740197113D000F6F611 /* Sources */,
+				A4787741197113D000F6F611 /* Frameworks */,
+				A4787742197113D000F6F611 /* Resources */,
+				686B2C005EF443E7AB1D2530 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Spiral;
+			productName = Spiral;
+			productReference = A4787744197113D000F6F611 /* Spiral.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A4787759197113D000F6F611 /* SpiralTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4787767197113D000F6F611 /* Build configuration list for PBXNativeTarget "SpiralTests" */;
+			buildPhases = (
+				A4787756197113D000F6F611 /* Sources */,
+				A4787757197113D000F6F611 /* Frameworks */,
+				A4787758197113D000F6F611 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A478775C197113D000F6F611 /* PBXTargetDependency */,
+			);
+			name = SpiralTests;
+			productName = SpiralTests;
+			productReference = A478775A197113D000F6F611 /* SpiralTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A478773C197113D000F6F611 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "杨萧玉";
+				TargetAttributes = {
+					A4787743197113D000F6F611 = {
+						CreatedOnToolsVersion = 6.0;
+						DevelopmentTeam = D3RCVUP6VH;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+						};
+					};
+					A4787759197113D000F6F611 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = A4787743197113D000F6F611;
+					};
+				};
+			};
+			buildConfigurationList = A478773F197113D000F6F611 /* Build configuration list for PBXProject "Spiral" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A478773B197113D000F6F611;
+			productRefGroup = A4787745197113D000F6F611 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A4787743197113D000F6F611 /* Spiral */,
+				A4787759197113D000F6F611 /* SpiralTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A4787742197113D000F6F611 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4B104B619D6ECEF008BD1BA /* gameover.mp3 in Resources */,
+				A4F92B8719DCF69600C87D0E /* Localizable.strings in Resources */,
+				A4B104BA19D6F2C0008BD1BA /* score.mp3 in Resources */,
+				A4B104AD19D6DB30008BD1BA /* jump.mp3 in Resources */,
+				A4787755197113D000F6F611 /* Images.xcassets in Resources */,
+				A478774C197113D000F6F611 /* GameScene.sks in Resources */,
+				A47E78E619F39C4E003D5143 /* vortexShader.fsh in Resources */,
+				A4B104BC19D6F3A0008BD1BA /* shield.wav in Resources */,
+				A479DFA119F4DC9F000DF2AF /* HelpScene.sks in Resources */,
+				A4787753197113D000F6F611 /* Main.storyboard in Resources */,
+				A4B104BE19D6F5EA008BD1BA /* killer.wav in Resources */,
+				A45A65E419860AD000EA40D7 /* pew-pew-lei.caf in Resources */,
+				A4B104B819D6F166008BD1BA /* levelup.mp3 in Resources */,
+				A4605B6C19F5235500F8DD96 /* Launch Screen.xib in Resources */,
+				A4B104B219D6DF01008BD1BA /* bg.mp3 in Resources */,
+				A4B05A3A19E9642900B303C0 /* spiral.sketch in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4787758197113D000F6F611 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		63787A5A92E649D785F1E95B /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		686B2C005EF443E7AB1D2530 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A4787740197113D000F6F611 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A434A14F19769F4600F4C94B /* ReplayButton.swift in Sources */,
+				A4F3C61019E90FFF000514AC /* Rope.swift in Sources */,
+				A45A9FA519F3F1640087C192 /* HelpButton.swift in Sources */,
+				A46D8C011976BF9400A32924 /* Shield.swift in Sources */,
+				A47D3D1E19741E54005AF736 /* Score.swift in Sources */,
+				A478777119712E9D00F6F611 /* Shape.swift in Sources */,
+				A47D3D0D1973DBE4005AF736 /* ContactVisitor.swift in Sources */,
+				A45A65E01986073B00EA40D7 /* SoundManager.swift in Sources */,
+				A47D3D1619740AA3005AF736 /* PlayerContactVisitor.swift in Sources */,
+				A4F3C60C19E8EAF7000514AC /* ReaperContactVisitor.swift in Sources */,
+				A46D8C031976C3B800A32924 /* ShieldContactVisitor.swift in Sources */,
+				A478774E197113D000F6F611 /* GameScene.swift in Sources */,
+				A47D3D18197415C1005AF736 /* KillerContactVisitor.swift in Sources */,
+				A47D3D1C19741B04005AF736 /* Killer.swift in Sources */,
+				A4FF927019751AA50060CE6D /* VisitablePhysicsBody.swift in Sources */,
+				A4787750197113D000F6F611 /* GameViewController.swift in Sources */,
+				A478776B197113DB00F6F611 /* Map.swift in Sources */,
+				A4B2788519EA781C00A2D065 /* GameCenterButton.swift in Sources */,
+				A4F3C60A19E8E990000514AC /* Reaper.swift in Sources */,
+				A424E2F119E78176007FE1C1 /* Background.swift in Sources */,
+				A4FF9274197526830060CE6D /* Display.swift in Sources */,
+				A434A14B1976955000F4C94B /* ShareButton.swift in Sources */,
+				A4EEE3B919F6A45200A43108 /* SendWX.m in Sources */,
+				A45A9FA319F3E7250087C192 /* HelpScene.swift in Sources */,
+				A47D3D1A19741859005AF736 /* ScoreContactVisitor.swift in Sources */,
+				A48F921419724822007BDAE4 /* Player.swift in Sources */,
+				A41591E719CC71C500C3420B /* GameKitHelper.m in Sources */,
+				A478774A197113D000F6F611 /* AppDelegate.swift in Sources */,
+				A48F921219724362007BDAE4 /* NodeCategories.swift in Sources */,
+				A4FF9276197529B50060CE6D /* Data.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4787756197113D000F6F611 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4787761197113D000F6F611 /* SpiralTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A478775C197113D000F6F611 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A4787743197113D000F6F611 /* Spiral */;
+			targetProxy = A478775B197113D000F6F611 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A4605B6E19F5235500F8DD96 /* Launch Screen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4605B6D19F5235500F8DD96 /* zh-Hans */,
+				A4605B6F19F5235700F8DD96 /* Base */,
+			);
+			name = "Launch Screen.xib";
+			sourceTree = "<group>";
+		};
+		A4787751197113D000F6F611 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4787752197113D000F6F611 /* Base */,
+				A4F92B8419DCF65900C87D0E /* zh-Hans */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A479DFA319F4DC9F000DF2AF /* HelpScene.sks */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A479DFA219F4DC9F000DF2AF /* zh-Hans */,
+				A4D28BB619F7723F00E1A46B /* en */,
+				A4D28BB719F7724100E1A46B /* Base */,
+			);
+			name = HelpScene.sks;
+			sourceTree = "<group>";
+		};
+		A4F92B8919DCF69600C87D0E /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4F92B8819DCF69600C87D0E /* zh-Hans */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A4787762197113D000F6F611 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				"LIBRARY_SEARCH_PATHS[arch=*]" = /Users/yangxiaoyu/Documents/Code/Spiral/Spiral;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A4787763197113D000F6F611 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				"LIBRARY_SEARCH_PATHS[arch=*]" = /Users/yangxiaoyu/Documents/Code/Spiral/Spiral;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A4787765197113D000F6F611 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BCC118355E4463D84D833AC /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = Spiral/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Spiral",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Spiral/Spiral-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A4787766197113D000F6F611 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BCC118355E4463D84D833AC /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = Spiral/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Spiral",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Spiral/Spiral-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A4787768197113D000F6F611 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Spiral.app/Spiral";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SpiralTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		A4787769197113D000F6F611 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Spiral.app/Spiral";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SpiralTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A478773F197113D000F6F611 /* Build configuration list for PBXProject "Spiral" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4787762197113D000F6F611 /* Debug */,
+				A4787763197113D000F6F611 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4787764197113D000F6F611 /* Build configuration list for PBXNativeTarget "Spiral" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4787765197113D000F6F611 /* Debug */,
+				A4787766197113D000F6F611 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4787767197113D000F6F611 /* Build configuration list for PBXNativeTarget "SpiralTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4787768197113D000F6F611 /* Debug */,
+				A4787769197113D000F6F611 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A478773C197113D000F6F611 /* Project object */;
+}

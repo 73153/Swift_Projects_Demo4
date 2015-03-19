@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6154.17" systemVersion="14A238x" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6153.11"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="JustDeleteMe" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="480" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" translucent="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VRp-ru-zpm">
+                                <rect key="frame" x="0.0" y="0.0" width="480" height="44"/>
+                                <color key="backgroundColor" red="0.14494896900000001" green="0.1938886806" blue="0.2144403872" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="VZg-Km-yzy"/>
+                                </constraints>
+                                <color key="tintColor" red="0.14494896900000001" green="0.1938886806" blue="0.2144403872" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="barTintColor" red="0.14494896904582244" green="0.19388868062147949" blue="0.21444038722826086" alpha="1" colorSpace="calibratedRGB"/>
+                                <textAttributes key="titleTextAttributes">
+                                    <color key="textColor" red="0.78929602581521741" green="0.28221282009618903" blue="0.30082782904250688" alpha="1" colorSpace="calibratedRGB"/>
+                                </textAttributes>
+                                <items>
+                                    <navigationItem title="JustDeleteMe" id="cpb-my-NWi"/>
+                                </items>
+                            </navigationBar>
+                            <searchBar contentMode="redraw" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Uvg-cP-YIe">
+                                <rect key="frame" x="0.0" y="44" width="480" height="44"/>
+                                <textInputTraits key="textInputTraits" returnKeyType="done"/>
+                                <connections>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="td7-OG-552"/>
+                                </connections>
+                            </searchBar>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="xXS-WE-5fA">
+                                <rect key="frame" x="0.0" y="88" width="480" height="392"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="MMH-TB-VPy"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="8bO-ef-KqV"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="Uvg-cP-YIe" secondAttribute="trailing" id="CZq-E3-Dtc"/>
+                            <constraint firstItem="xXS-WE-5fA" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Fmd-he-JXW"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="xXS-WE-5fA" secondAttribute="bottom" id="G3R-00-Zo7"/>
+                            <constraint firstAttribute="trailing" secondItem="VRp-ru-zpm" secondAttribute="trailing" id="G6r-p4-ci5"/>
+                            <constraint firstAttribute="trailing" secondItem="xXS-WE-5fA" secondAttribute="trailing" id="Ges-Dv-wi4"/>
+                            <constraint firstItem="xXS-WE-5fA" firstAttribute="top" secondItem="Uvg-cP-YIe" secondAttribute="bottom" id="Kyu-xv-hap"/>
+                            <constraint firstItem="VRp-ru-zpm" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="ZiS-C5-r9M"/>
+                            <constraint firstItem="VRp-ru-zpm" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="bYj-iR-aQi"/>
+                            <constraint firstItem="Uvg-cP-YIe" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="uzx-Cy-5j9"/>
+                        </constraints>
+                    </view>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="480" height="480"/>
+                    <connections>
+                        <outlet property="searchBar" destination="Uvg-cP-YIe" id="iFm-nU-gWN"/>
+                        <outlet property="sitesTable" destination="xXS-WE-5fA" id="wrC-Tm-Rac"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="139" y="165"/>
+        </scene>
+    </scenes>
+</document>

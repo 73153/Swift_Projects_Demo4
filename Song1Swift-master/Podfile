@@ -1,0 +1,12 @@
+# Uncomment this line to define a global platform for your project
+# platform :ios, '6.0'
+
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'Song1Swift' do
+  pod 'GPUImage', '~> 0.1.6'
+end
+
+target 'Song1SwiftTests' do
+
+end

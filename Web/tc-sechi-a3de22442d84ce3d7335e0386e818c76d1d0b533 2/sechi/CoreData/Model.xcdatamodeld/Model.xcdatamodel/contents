@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="5063" systemVersion="12F45" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="SEClient" representedClassName="SEClient" syncable="YES">
+        <attribute name="businessPhoneC" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="c5Source" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="companyAddressC" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="companyNameC" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="createdDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="email" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="firstname" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="identifier" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="lastModifiedDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="lastname" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="phone" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="removed" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sfid" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="SEJob" representedClassName="SEJob" syncable="YES">
+        <attribute name="c5Source" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="clientAccountC" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="clientContactC" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="clientNameC" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="contactNameC" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="createdDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="identifier" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="infoTextC" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="jobAddressC" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="jobEndTimeC" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="jobNameC" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="jobStartTimeC" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="lastModifiedDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="latitudeC" optional="YES" attributeType="Float" defaultValueString="0" syncable="YES"/>
+        <attribute name="longitudeC" optional="YES" attributeType="Float" defaultValueString="0" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="notesC" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="phoneC" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="removed" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sfid" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="statusC" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="photos" optional="YES" toMany="YES" deletionRule="Nullify" ordered="YES" destinationEntity="SEJobPhotoInfo" inverseName="job" inverseEntity="SEJobPhotoInfo" syncable="YES"/>
+    </entity>
+    <entity name="SEJobPhotoInfo" representedClassName="SEJobPhotoInfo" syncable="YES">
+        <attribute name="filePath" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="job" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="SEJob" inverseName="photos" inverseEntity="SEJob" syncable="YES"/>
+    </entity>
+    <entity name="SEPayment" representedClassName="SEPayment" syncable="YES">
+        <attribute name="c5Source" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="clientAccountC" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="clientNameC" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="createdDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="identifier" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="jobNameC" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lastModifiedDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="paymentAmountC" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="paymentDateC" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="paymentNotesC" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="removed" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sfid" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="statusC" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="svcJobC" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="SEProduct" representedClassName="SEProduct" syncable="YES">
+        <attribute name="active" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="c5Source" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="createdDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="desc" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="family" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="identifier" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="lastModifiedDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="productcode" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="removed" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sfid" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="SEClient" positionX="0" positionY="0" width="128" height="255"/>
+        <element name="SEJob" positionX="0" positionY="0" width="128" height="375"/>
+        <element name="SEJobPhotoInfo" positionX="0" positionY="0" width="128" height="75"/>
+        <element name="SEPayment" positionX="0" positionY="0" width="128" height="270"/>
+        <element name="SEProduct" positionX="0" positionY="0" width="128" height="210"/>
+    </elements>
+</model>

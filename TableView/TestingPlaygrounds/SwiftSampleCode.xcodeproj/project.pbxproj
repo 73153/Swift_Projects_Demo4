@@ -1,0 +1,490 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4B1B3E7D19473B1100EBDB41 /* GOTCharacters.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4B1B3E7C19473B1100EBDB41 /* GOTCharacters.plist */; };
+		4B1B3E8219476DA300EBDB41 /* Arya-Stark.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4B1B3E7E19476DA300EBDB41 /* Arya-Stark.jpg */; };
+		4B1B3E8319476DA300EBDB41 /* Daenerys-Targaryen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4B1B3E7F19476DA300EBDB41 /* Daenerys-Targaryen.jpg */; };
+		4B1B3E8419476DA300EBDB41 /* oberyn-martell.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4B1B3E8019476DA300EBDB41 /* oberyn-martell.jpg */; };
+		4B1B3E8519476DA300EBDB41 /* Tyrion.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4B1B3E8119476DA300EBDB41 /* Tyrion.jpeg */; };
+		4B7D25F8194849A300AE2827 /* GOTCharacterTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7D25F6194849A300AE2827 /* GOTCharacterTableViewCell.swift */; };
+		4B7D25FC1948BFC600AE2827 /* Game-of-Throne-wallpaper.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4B7D25FA1948BFC600AE2827 /* Game-of-Throne-wallpaper.jpg */; };
+		4B7D25FF1948C6EA00AE2827 /* winter-is-coming.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4B7D25FE1948C6EA00AE2827 /* winter-is-coming.jpg */; };
+		4B7D26011948CBC000AE2827 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7D26001948CBC000AE2827 /* DetailViewController.swift */; };
+		4BCFA4791946D2640067092A /* GOTCharacter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BCFA4781946D2640067092A /* GOTCharacter.swift */; };
+		4BCFA47B1946F01D0067092A /* Budha-profile-pic.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BCFA47A1946F01D0067092A /* Budha-profile-pic.png */; };
+		4BE4C1AE1945C09100645126 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE4C1AD1945C09100645126 /* AppDelegate.swift */; };
+		4BE4C1B01945C09100645126 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE4C1AF1945C09100645126 /* ViewController.swift */; };
+		4BE4C1B31945C09100645126 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BE4C1B11945C09100645126 /* Main.storyboard */; };
+		4BE4C1B51945C09100645126 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BE4C1B41945C09100645126 /* Images.xcassets */; };
+		4BE4C1C11945C09200645126 /* TestingPlaygroundsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE4C1C01945C09200645126 /* TestingPlaygroundsTests.swift */; };
+		4BF28AC1194992AB00F91BEB /* youmurdererbb_reg.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4BF28AC0194992AB00F91BEB /* youmurdererbb_reg.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4BE4C1BB1945C09200645126 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4BE4C1A01945C09000645126 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4BE4C1A71945C09100645126;
+			remoteInfo = TestingPlaygrounds;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4B1B3E7C19473B1100EBDB41 /* GOTCharacters.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = GOTCharacters.plist; sourceTree = "<group>"; };
+		4B1B3E7E19476DA300EBDB41 /* Arya-Stark.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Arya-Stark.jpg"; sourceTree = "<group>"; };
+		4B1B3E7F19476DA300EBDB41 /* Daenerys-Targaryen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Daenerys-Targaryen.jpg"; sourceTree = "<group>"; };
+		4B1B3E8019476DA300EBDB41 /* oberyn-martell.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "oberyn-martell.jpg"; sourceTree = "<group>"; };
+		4B1B3E8119476DA300EBDB41 /* Tyrion.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Tyrion.jpeg; sourceTree = "<group>"; };
+		4B7D25F6194849A300AE2827 /* GOTCharacterTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GOTCharacterTableViewCell.swift; sourceTree = "<group>"; };
+		4B7D25FA1948BFC600AE2827 /* Game-of-Throne-wallpaper.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Game-of-Throne-wallpaper.jpg"; sourceTree = "<group>"; };
+		4B7D25FE1948C6EA00AE2827 /* winter-is-coming.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "winter-is-coming.jpg"; sourceTree = "<group>"; };
+		4B7D26001948CBC000AE2827 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		4BCFA4781946D2640067092A /* GOTCharacter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GOTCharacter.swift; sourceTree = "<group>"; };
+		4BCFA47A1946F01D0067092A /* Budha-profile-pic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Budha-profile-pic.png"; sourceTree = "<group>"; };
+		4BE4C1A81945C09100645126 /* SwiftSampleCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftSampleCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BE4C1AC1945C09100645126 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BE4C1AD1945C09100645126 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4BE4C1AF1945C09100645126 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4BE4C1B21945C09100645126 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4BE4C1B41945C09100645126 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4BE4C1BA1945C09200645126 /* SwiftSampleCodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftSampleCodeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BE4C1BF1945C09200645126 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BE4C1C01945C09200645126 /* TestingPlaygroundsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestingPlaygroundsTests.swift; sourceTree = "<group>"; };
+		4BE4C1CA1945C5C700645126 /* Lesson1.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Lesson1.playground; sourceTree = "<group>"; };
+		4BF28AC0194992AB00F91BEB /* youmurdererbb_reg.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = youmurdererbb_reg.ttf; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4BE4C1A51945C09100645126 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BE4C1B71945C09200645126 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4B1B3E7819473A2600EBDB41 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4B7D25F6194849A300AE2827 /* GOTCharacterTableViewCell.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		4B1B3E7B19473AE900EBDB41 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				4B1B3E7E19476DA300EBDB41 /* Arya-Stark.jpg */,
+				4B1B3E7F19476DA300EBDB41 /* Daenerys-Targaryen.jpg */,
+				4B1B3E8019476DA300EBDB41 /* oberyn-martell.jpg */,
+				4B1B3E8119476DA300EBDB41 /* Tyrion.jpeg */,
+				4B7D25FA1948BFC600AE2827 /* Game-of-Throne-wallpaper.jpg */,
+				4B7D25FE1948C6EA00AE2827 /* winter-is-coming.jpg */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		4BCFA4771946D20F0067092A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4BCFA4781946D2640067092A /* GOTCharacter.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4BE4C19F1945C09000645126 = {
+			isa = PBXGroup;
+			children = (
+				4BE4C1AA1945C09100645126 /* TestingPlaygrounds */,
+				4BE4C1BD1945C09200645126 /* TestingPlaygroundsTests */,
+				4BE4C1A91945C09100645126 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4BE4C1A91945C09100645126 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4BE4C1A81945C09100645126 /* SwiftSampleCode.app */,
+				4BE4C1BA1945C09200645126 /* SwiftSampleCodeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4BE4C1AA1945C09100645126 /* TestingPlaygrounds */ = {
+			isa = PBXGroup;
+			children = (
+				4BCFA4771946D20F0067092A /* Models */,
+				4B1B3E7819473A2600EBDB41 /* Views */,
+				4BE4C1AD1945C09100645126 /* AppDelegate.swift */,
+				4BE4C1CA1945C5C700645126 /* Lesson1.playground */,
+				4BE4C1AF1945C09100645126 /* ViewController.swift */,
+				4B7D26001948CBC000AE2827 /* DetailViewController.swift */,
+				4BE4C1B11945C09100645126 /* Main.storyboard */,
+				4BE4C1B41945C09100645126 /* Images.xcassets */,
+				4BE4C1AB1945C09100645126 /* Supporting Files */,
+			);
+			path = TestingPlaygrounds;
+			sourceTree = "<group>";
+		};
+		4BE4C1AB1945C09100645126 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4B1B3E7B19473AE900EBDB41 /* Images */,
+				4BCFA47A1946F01D0067092A /* Budha-profile-pic.png */,
+				4BF28AC0194992AB00F91BEB /* youmurdererbb_reg.ttf */,
+				4B1B3E7C19473B1100EBDB41 /* GOTCharacters.plist */,
+				4BE4C1AC1945C09100645126 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4BE4C1BD1945C09200645126 /* TestingPlaygroundsTests */ = {
+			isa = PBXGroup;
+			children = (
+				4BE4C1C01945C09200645126 /* TestingPlaygroundsTests.swift */,
+				4BE4C1BE1945C09200645126 /* Supporting Files */,
+			);
+			path = TestingPlaygroundsTests;
+			sourceTree = "<group>";
+		};
+		4BE4C1BE1945C09200645126 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4BE4C1BF1945C09200645126 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4BE4C1A71945C09100645126 /* SwiftSampleCode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4BE4C1C41945C09200645126 /* Build configuration list for PBXNativeTarget "SwiftSampleCode" */;
+			buildPhases = (
+				4BE4C1A41945C09100645126 /* Sources */,
+				4BE4C1A51945C09100645126 /* Frameworks */,
+				4BE4C1A61945C09100645126 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftSampleCode;
+			productName = TestingPlaygrounds;
+			productReference = 4BE4C1A81945C09100645126 /* SwiftSampleCode.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4BE4C1B91945C09200645126 /* SwiftSampleCodeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4BE4C1C71945C09200645126 /* Build configuration list for PBXNativeTarget "SwiftSampleCodeTests" */;
+			buildPhases = (
+				4BE4C1B61945C09200645126 /* Sources */,
+				4BE4C1B71945C09200645126 /* Frameworks */,
+				4BE4C1B81945C09200645126 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4BE4C1BC1945C09200645126 /* PBXTargetDependency */,
+			);
+			name = SwiftSampleCodeTests;
+			productName = TestingPlaygroundsTests;
+			productReference = 4BE4C1BA1945C09200645126 /* SwiftSampleCodeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4BE4C1A01945C09000645126 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = threeroots;
+				TargetAttributes = {
+					4BE4C1A71945C09100645126 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					4BE4C1B91945C09200645126 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 4BE4C1A71945C09100645126;
+					};
+				};
+			};
+			buildConfigurationList = 4BE4C1A31945C09000645126 /* Build configuration list for PBXProject "SwiftSampleCode" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4BE4C19F1945C09000645126;
+			productRefGroup = 4BE4C1A91945C09100645126 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4BE4C1A71945C09100645126 /* SwiftSampleCode */,
+				4BE4C1B91945C09200645126 /* SwiftSampleCodeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4BE4C1A61945C09100645126 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BE4C1B31945C09100645126 /* Main.storyboard in Resources */,
+				4BF28AC1194992AB00F91BEB /* youmurdererbb_reg.ttf in Resources */,
+				4B7D25FF1948C6EA00AE2827 /* winter-is-coming.jpg in Resources */,
+				4BCFA47B1946F01D0067092A /* Budha-profile-pic.png in Resources */,
+				4B1B3E8319476DA300EBDB41 /* Daenerys-Targaryen.jpg in Resources */,
+				4BE4C1B51945C09100645126 /* Images.xcassets in Resources */,
+				4B1B3E8519476DA300EBDB41 /* Tyrion.jpeg in Resources */,
+				4B7D25FC1948BFC600AE2827 /* Game-of-Throne-wallpaper.jpg in Resources */,
+				4B1B3E8419476DA300EBDB41 /* oberyn-martell.jpg in Resources */,
+				4B1B3E7D19473B1100EBDB41 /* GOTCharacters.plist in Resources */,
+				4B1B3E8219476DA300EBDB41 /* Arya-Stark.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BE4C1B81945C09200645126 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4BE4C1A41945C09100645126 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BCFA4791946D2640067092A /* GOTCharacter.swift in Sources */,
+				4B7D25F8194849A300AE2827 /* GOTCharacterTableViewCell.swift in Sources */,
+				4B7D26011948CBC000AE2827 /* DetailViewController.swift in Sources */,
+				4BE4C1B01945C09100645126 /* ViewController.swift in Sources */,
+				4BE4C1AE1945C09100645126 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BE4C1B61945C09200645126 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BE4C1C11945C09200645126 /* TestingPlaygroundsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4BE4C1BC1945C09200645126 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4BE4C1A71945C09100645126 /* SwiftSampleCode */;
+			targetProxy = 4BE4C1BB1945C09200645126 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4BE4C1B11945C09100645126 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4BE4C1B21945C09100645126 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4BE4C1C21945C09200645126 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4BE4C1C31945C09200645126 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4BE4C1C51945C09200645126 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = TestingPlaygrounds/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = SwiftSampleCode;
+			};
+			name = Debug;
+		};
+		4BE4C1C61945C09200645126 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = TestingPlaygrounds/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = SwiftSampleCode;
+			};
+			name = Release;
+		};
+		4BE4C1C81945C09200645126 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TestingPlaygrounds.app/TestingPlaygrounds";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TestingPlaygroundsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SwiftSampleCodeTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		4BE4C1C91945C09200645126 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TestingPlaygrounds.app/TestingPlaygrounds";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TestingPlaygroundsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SwiftSampleCodeTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4BE4C1A31945C09000645126 /* Build configuration list for PBXProject "SwiftSampleCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BE4C1C21945C09200645126 /* Debug */,
+				4BE4C1C31945C09200645126 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4BE4C1C41945C09200645126 /* Build configuration list for PBXNativeTarget "SwiftSampleCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BE4C1C51945C09200645126 /* Debug */,
+				4BE4C1C61945C09200645126 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4BE4C1C71945C09200645126 /* Build configuration list for PBXNativeTarget "SwiftSampleCodeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BE4C1C81945C09200645126 /* Debug */,
+				4BE4C1C91945C09200645126 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4BE4C1A01945C09000645126 /* Project object */;
+}

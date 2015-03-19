@@ -1,0 +1,449 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9757DE17194284050032271E /* Board.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9757DE16194284050032271E /* Board.swift */; };
+		FEA5B32B19419AA900470423 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA5B32A19419AA900470423 /* AppDelegate.swift */; };
+		FEA5B33219419AA900470423 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEA5B33119419AA900470423 /* Images.xcassets */; };
+		FEA5B33E19419AA900470423 /* Hack2048Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA5B33D19419AA900470423 /* Hack2048Tests.swift */; };
+		FEA5B34D19419CF700470423 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA5B34B19419CF700470423 /* ViewController.swift */; };
+		FEA5B3521941AB1200470423 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA5B3511941AB1200470423 /* Common.swift */; };
+		FEA5B3541941F89200470423 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA5B3531941F89200470423 /* GameViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FEA5B33819419AA900470423 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FEA5B31D19419AA900470423 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FEA5B32419419AA900470423;
+			remoteInfo = Hack2048;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9757DE16194284050032271E /* Board.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Board.swift; sourceTree = "<group>"; };
+		FEA5B32519419AA900470423 /* Hack2048.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hack2048.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEA5B32919419AA900470423 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEA5B32A19419AA900470423 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FEA5B33119419AA900470423 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FEA5B33719419AA900470423 /* Hack2048Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Hack2048Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEA5B33C19419AA900470423 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEA5B33D19419AA900470423 /* Hack2048Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hack2048Tests.swift; sourceTree = "<group>"; };
+		FEA5B34B19419CF700470423 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FEA5B3511941AB1200470423 /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		FEA5B3531941F89200470423 /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FEA5B32219419AA900470423 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEA5B33419419AA900470423 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FEA5B31C19419AA900470423 = {
+			isa = PBXGroup;
+			children = (
+				FEA5B32719419AA900470423 /* Hack2048 */,
+				FEA5B33A19419AA900470423 /* Hack2048Tests */,
+				FEA5B32619419AA900470423 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FEA5B32619419AA900470423 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FEA5B32519419AA900470423 /* Hack2048.app */,
+				FEA5B33719419AA900470423 /* Hack2048Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FEA5B32719419AA900470423 /* Hack2048 */ = {
+			isa = PBXGroup;
+			children = (
+				FEA5B32A19419AA900470423 /* AppDelegate.swift */,
+				FEA5B3501941AAFE00470423 /* libs */,
+				FEA5B34E19419CFE00470423 /* models */,
+				FEA5B34F19419CFE00470423 /* views */,
+				FEA5B34919419CF700470423 /* controllers */,
+				FEA5B33119419AA900470423 /* Images.xcassets */,
+				FEA5B32819419AA900470423 /* Supporting Files */,
+			);
+			path = Hack2048;
+			sourceTree = "<group>";
+		};
+		FEA5B32819419AA900470423 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FEA5B32919419AA900470423 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FEA5B33A19419AA900470423 /* Hack2048Tests */ = {
+			isa = PBXGroup;
+			children = (
+				FEA5B33D19419AA900470423 /* Hack2048Tests.swift */,
+				FEA5B33B19419AA900470423 /* Supporting Files */,
+			);
+			path = Hack2048Tests;
+			sourceTree = "<group>";
+		};
+		FEA5B33B19419AA900470423 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FEA5B33C19419AA900470423 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FEA5B34919419CF700470423 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FEA5B34B19419CF700470423 /* ViewController.swift */,
+				FEA5B3531941F89200470423 /* GameViewController.swift */,
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		FEA5B34E19419CFE00470423 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				9757DE16194284050032271E /* Board.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		FEA5B34F19419CFE00470423 /* views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		FEA5B3501941AAFE00470423 /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				FEA5B3511941AB1200470423 /* Common.swift */,
+			);
+			path = libs;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FEA5B32419419AA900470423 /* Hack2048 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEA5B34119419AA900470423 /* Build configuration list for PBXNativeTarget "Hack2048" */;
+			buildPhases = (
+				FEA5B32119419AA900470423 /* Sources */,
+				FEA5B32219419AA900470423 /* Frameworks */,
+				FEA5B32319419AA900470423 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Hack2048;
+			productName = Hack2048;
+			productReference = FEA5B32519419AA900470423 /* Hack2048.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FEA5B33619419AA900470423 /* Hack2048Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEA5B34419419AA900470423 /* Build configuration list for PBXNativeTarget "Hack2048Tests" */;
+			buildPhases = (
+				FEA5B33319419AA900470423 /* Sources */,
+				FEA5B33419419AA900470423 /* Frameworks */,
+				FEA5B33519419AA900470423 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FEA5B33919419AA900470423 /* PBXTargetDependency */,
+			);
+			name = Hack2048Tests;
+			productName = Hack2048Tests;
+			productReference = FEA5B33719419AA900470423 /* Hack2048Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FEA5B31D19419AA900470423 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Kohei Iwasaki";
+				TargetAttributes = {
+					FEA5B32419419AA900470423 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					FEA5B33619419AA900470423 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = FEA5B32419419AA900470423;
+					};
+				};
+			};
+			buildConfigurationList = FEA5B32019419AA900470423 /* Build configuration list for PBXProject "Hack2048" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FEA5B31C19419AA900470423;
+			productRefGroup = FEA5B32619419AA900470423 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FEA5B32419419AA900470423 /* Hack2048 */,
+				FEA5B33619419AA900470423 /* Hack2048Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FEA5B32319419AA900470423 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEA5B33219419AA900470423 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEA5B33519419AA900470423 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FEA5B32119419AA900470423 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEA5B3541941F89200470423 /* GameViewController.swift in Sources */,
+				FEA5B34D19419CF700470423 /* ViewController.swift in Sources */,
+				9757DE17194284050032271E /* Board.swift in Sources */,
+				FEA5B3521941AB1200470423 /* Common.swift in Sources */,
+				FEA5B32B19419AA900470423 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEA5B33319419AA900470423 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEA5B33E19419AA900470423 /* Hack2048Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FEA5B33919419AA900470423 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FEA5B32419419AA900470423 /* Hack2048 */;
+			targetProxy = FEA5B33819419AA900470423 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FEA5B33F19419AA900470423 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "arm64 armv7";
+			};
+			name = Debug;
+		};
+		FEA5B34019419AA900470423 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "arm64 armv7";
+			};
+			name = Release;
+		};
+		FEA5B34219419AA900470423 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = Hack2048/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "arm64 armv7 armv7s";
+			};
+			name = Debug;
+		};
+		FEA5B34319419AA900470423 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = Hack2048/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "arm64 armv7 armv7s";
+			};
+			name = Release;
+		};
+		FEA5B34519419AA900470423 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Hack2048.app/Hack2048";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Hack2048Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		FEA5B34619419AA900470423 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Hack2048.app/Hack2048";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Hack2048Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FEA5B32019419AA900470423 /* Build configuration list for PBXProject "Hack2048" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEA5B33F19419AA900470423 /* Debug */,
+				FEA5B34019419AA900470423 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEA5B34119419AA900470423 /* Build configuration list for PBXNativeTarget "Hack2048" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEA5B34219419AA900470423 /* Debug */,
+				FEA5B34319419AA900470423 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEA5B34419419AA900470423 /* Build configuration list for PBXNativeTarget "Hack2048Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEA5B34519419AA900470423 /* Debug */,
+				FEA5B34619419AA900470423 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FEA5B31D19419AA900470423 /* Project object */;
+}

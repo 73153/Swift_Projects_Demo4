@@ -1,0 +1,447 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3ECBEFDF193FC2C000031E1E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ECBEFDE193FC2C000031E1E /* AppDelegate.swift */; };
+		3ECBEFE1193FC2C000031E1E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ECBEFE0193FC2C000031E1E /* ViewController.swift */; };
+		3ECBEFE4193FC2C000031E1E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3ECBEFE2193FC2C000031E1E /* Main.storyboard */; };
+		3ECBEFE6193FC2C000031E1E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3ECBEFE5193FC2C000031E1E /* Images.xcassets */; };
+		3ECBEFF2193FC2C000031E1E /* DusorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ECBEFF1193FC2C000031E1E /* DusorTests.swift */; };
+		777E7DDF1941BBBC00A47421 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777E7DDE1941BBBC00A47421 /* DataManager.swift */; };
+		77C1A784193FEB0400DDD84A /* NotBilgisi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C1A783193FEB0400DDD84A /* NotBilgisi.swift */; };
+		77C1A786193FED1400DDD84A /* KGSBilgi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C1A785193FED1400DDD84A /* KGSBilgi.swift */; };
+		77C1A788193FEDCE00DDD84A /* NotHesaplama.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C1A787193FEDCE00DDD84A /* NotHesaplama.swift */; };
+		77C1A78A193FEDD800DDD84A /* DevamDurumu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C1A789193FEDD800DDD84A /* DevamDurumu.swift */; };
+		77C1A78C193FEDEB00DDD84A /* Ayarlar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C1A78B193FEDEB00DDD84A /* Ayarlar.swift */; };
+		77FFF5EB193FDC5E0035D121 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77FFF5EA193FDC5E0035D121 /* Menu.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3ECBEFEC193FC2C000031E1E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3ECBEFD1193FC2C000031E1E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3ECBEFD8193FC2C000031E1E;
+			remoteInfo = Dusor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3ECBEFD9193FC2C000031E1E /* Dusor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dusor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3ECBEFDD193FC2C000031E1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3ECBEFDE193FC2C000031E1E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3ECBEFE0193FC2C000031E1E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3ECBEFE3193FC2C000031E1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3ECBEFE5193FC2C000031E1E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3ECBEFEB193FC2C000031E1E /* DusorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DusorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3ECBEFF0193FC2C000031E1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3ECBEFF1193FC2C000031E1E /* DusorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DusorTests.swift; sourceTree = "<group>"; };
+		777E7DDE1941BBBC00A47421 /* DataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		77C1A783193FEB0400DDD84A /* NotBilgisi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotBilgisi.swift; sourceTree = "<group>"; };
+		77C1A785193FED1400DDD84A /* KGSBilgi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KGSBilgi.swift; sourceTree = "<group>"; };
+		77C1A787193FEDCE00DDD84A /* NotHesaplama.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotHesaplama.swift; sourceTree = "<group>"; };
+		77C1A789193FEDD800DDD84A /* DevamDurumu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DevamDurumu.swift; sourceTree = "<group>"; };
+		77C1A78B193FEDEB00DDD84A /* Ayarlar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ayarlar.swift; sourceTree = "<group>"; };
+		77FFF5EA193FDC5E0035D121 /* Menu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3ECBEFD6193FC2C000031E1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3ECBEFE8193FC2C000031E1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3ECBEFD0193FC2C000031E1E = {
+			isa = PBXGroup;
+			children = (
+				3ECBEFDB193FC2C000031E1E /* Dusor */,
+				3ECBEFEE193FC2C000031E1E /* DusorTests */,
+				3ECBEFDA193FC2C000031E1E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3ECBEFDA193FC2C000031E1E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3ECBEFD9193FC2C000031E1E /* Dusor.app */,
+				3ECBEFEB193FC2C000031E1E /* DusorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3ECBEFDB193FC2C000031E1E /* Dusor */ = {
+			isa = PBXGroup;
+			children = (
+				3ECBEFDE193FC2C000031E1E /* AppDelegate.swift */,
+				3ECBEFE0193FC2C000031E1E /* ViewController.swift */,
+				3ECBEFE2193FC2C000031E1E /* Main.storyboard */,
+				77FFF5EA193FDC5E0035D121 /* Menu.swift */,
+				77C1A783193FEB0400DDD84A /* NotBilgisi.swift */,
+				77C1A785193FED1400DDD84A /* KGSBilgi.swift */,
+				77C1A789193FEDD800DDD84A /* DevamDurumu.swift */,
+				3ECBEFE5193FC2C000031E1E /* Images.xcassets */,
+				77C1A787193FEDCE00DDD84A /* NotHesaplama.swift */,
+				77C1A78B193FEDEB00DDD84A /* Ayarlar.swift */,
+				3ECBEFDC193FC2C000031E1E /* Supporting Files */,
+				777E7DDE1941BBBC00A47421 /* DataManager.swift */,
+			);
+			path = Dusor;
+			sourceTree = "<group>";
+		};
+		3ECBEFDC193FC2C000031E1E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3ECBEFDD193FC2C000031E1E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3ECBEFEE193FC2C000031E1E /* DusorTests */ = {
+			isa = PBXGroup;
+			children = (
+				3ECBEFF1193FC2C000031E1E /* DusorTests.swift */,
+				3ECBEFEF193FC2C000031E1E /* Supporting Files */,
+			);
+			path = DusorTests;
+			sourceTree = "<group>";
+		};
+		3ECBEFEF193FC2C000031E1E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3ECBEFF0193FC2C000031E1E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3ECBEFD8193FC2C000031E1E /* Dusor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3ECBEFF5193FC2C000031E1E /* Build configuration list for PBXNativeTarget "Dusor" */;
+			buildPhases = (
+				3ECBEFD5193FC2C000031E1E /* Sources */,
+				3ECBEFD6193FC2C000031E1E /* Frameworks */,
+				3ECBEFD7193FC2C000031E1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Dusor;
+			productName = Dusor;
+			productReference = 3ECBEFD9193FC2C000031E1E /* Dusor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3ECBEFEA193FC2C000031E1E /* DusorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3ECBEFF8193FC2C000031E1E /* Build configuration list for PBXNativeTarget "DusorTests" */;
+			buildPhases = (
+				3ECBEFE7193FC2C000031E1E /* Sources */,
+				3ECBEFE8193FC2C000031E1E /* Frameworks */,
+				3ECBEFE9193FC2C000031E1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3ECBEFED193FC2C000031E1E /* PBXTargetDependency */,
+			);
+			name = DusorTests;
+			productName = DusorTests;
+			productReference = 3ECBEFEB193FC2C000031E1E /* DusorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3ECBEFD1193FC2C000031E1E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Burak Çavuşoğlu";
+				TargetAttributes = {
+					3ECBEFD8193FC2C000031E1E = {
+						CreatedOnToolsVersion = 6.0;
+						DevelopmentTeam = MZ937QZ36W;
+					};
+					3ECBEFEA193FC2C000031E1E = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 3ECBEFD8193FC2C000031E1E;
+					};
+				};
+			};
+			buildConfigurationList = 3ECBEFD4193FC2C000031E1E /* Build configuration list for PBXProject "Dusor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3ECBEFD0193FC2C000031E1E;
+			productRefGroup = 3ECBEFDA193FC2C000031E1E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3ECBEFD8193FC2C000031E1E /* Dusor */,
+				3ECBEFEA193FC2C000031E1E /* DusorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3ECBEFD7193FC2C000031E1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3ECBEFE4193FC2C000031E1E /* Main.storyboard in Resources */,
+				3ECBEFE6193FC2C000031E1E /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3ECBEFE9193FC2C000031E1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3ECBEFD5193FC2C000031E1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77FFF5EB193FDC5E0035D121 /* Menu.swift in Sources */,
+				3ECBEFE1193FC2C000031E1E /* ViewController.swift in Sources */,
+				77C1A788193FEDCE00DDD84A /* NotHesaplama.swift in Sources */,
+				3ECBEFDF193FC2C000031E1E /* AppDelegate.swift in Sources */,
+				77C1A78C193FEDEB00DDD84A /* Ayarlar.swift in Sources */,
+				77C1A786193FED1400DDD84A /* KGSBilgi.swift in Sources */,
+				77C1A78A193FEDD800DDD84A /* DevamDurumu.swift in Sources */,
+				777E7DDF1941BBBC00A47421 /* DataManager.swift in Sources */,
+				77C1A784193FEB0400DDD84A /* NotBilgisi.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3ECBEFE7193FC2C000031E1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3ECBEFF2193FC2C000031E1E /* DusorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3ECBEFED193FC2C000031E1E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3ECBEFD8193FC2C000031E1E /* Dusor */;
+			targetProxy = 3ECBEFEC193FC2C000031E1E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3ECBEFE2193FC2C000031E1E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3ECBEFE3193FC2C000031E1E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3ECBEFF3193FC2C000031E1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3ECBEFF4193FC2C000031E1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3ECBEFF6193FC2C000031E1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = Dusor/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3ECBEFF7193FC2C000031E1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = Dusor/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3ECBEFF9193FC2C000031E1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Dusor.app/Dusor";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DusorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		3ECBEFFA193FC2C000031E1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Dusor.app/Dusor";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DusorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3ECBEFD4193FC2C000031E1E /* Build configuration list for PBXProject "Dusor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3ECBEFF3193FC2C000031E1E /* Debug */,
+				3ECBEFF4193FC2C000031E1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3ECBEFF5193FC2C000031E1E /* Build configuration list for PBXNativeTarget "Dusor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3ECBEFF6193FC2C000031E1E /* Debug */,
+				3ECBEFF7193FC2C000031E1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3ECBEFF8193FC2C000031E1E /* Build configuration list for PBXNativeTarget "DusorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3ECBEFF9193FC2C000031E1E /* Debug */,
+				3ECBEFFA193FC2C000031E1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3ECBEFD1193FC2C000031E1E /* Project object */;
+}

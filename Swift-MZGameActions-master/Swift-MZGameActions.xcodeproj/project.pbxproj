@@ -1,0 +1,811 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8E074CEE19F2B32800CB0325 /* MZ.Action.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E074CD219F2B32800CB0325 /* MZ.Action.swift */; };
+		8E074D0C19F2B33900CB0325 /* MZ.SpriteKitExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E074D0B19F2B33900CB0325 /* MZ.SpriteKitExtensions.swift */; };
+		8E074D0F19F2B34800CB0325 /* MZ.TouchDefines.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E074D0E19F2B34800CB0325 /* MZ.TouchDefines.swift */; };
+		8E074D9119F2B41700CB0325 /* MZ.ActionProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E074D9019F2B41700CB0325 /* MZ.ActionProtocols.swift */; };
+		8E074D9319F2B42400CB0325 /* MZ.ActionTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E074D9219F2B42400CB0325 /* MZ.ActionTime.swift */; };
+		8E074D9519F2B43B00CB0325 /* MZ.Pool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E074D9419F2B43B00CB0325 /* MZ.Pool.swift */; };
+		8E074D9919F2B45200CB0325 /* MZ.ActionRepeat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E074D9619F2B45200CB0325 /* MZ.ActionRepeat.swift */; };
+		8E074D9A19F2B45200CB0325 /* MZ.ActionsGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E074D9719F2B45200CB0325 /* MZ.ActionsGroup.swift */; };
+		8E074D9B19F2B45200CB0325 /* MZ.ActionsSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E074D9819F2B45200CB0325 /* MZ.ActionsSequence.swift */; };
+		8E074D9D19F2B46300CB0325 /* MZ.Actor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E074D9C19F2B46300CB0325 /* MZ.Actor.swift */; };
+		8E074DA119F2B4C700CB0325 /* MZ.Wait.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E074DA019F2B4C700CB0325 /* MZ.Wait.swift */; };
+		8E074DA319F2B4FC00CB0325 /* MZ.BoundTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E074DA219F2B4FC00CB0325 /* MZ.BoundTest.swift */; };
+		8E074DA519F2B50800CB0325 /* MZ.Health.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E074DA419F2B50800CB0325 /* MZ.Health.swift */; };
+		8E074DA819F2B51400CB0325 /* MZ.Nodes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E074DA619F2B51400CB0325 /* MZ.Nodes.swift */; };
+		8E074DA919F2B51400CB0325 /* MZ.PhysicsBody.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E074DA719F2B51400CB0325 /* MZ.PhysicsBody.swift */; };
+		8E074DAE19F2B52C00CB0325 /* MZ.SpriteCircleCollider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E074DAA19F2B52C00CB0325 /* MZ.SpriteCircleCollider.swift */; };
+		8E074DAF19F2B52C00CB0325 /* MZ.SpritesLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E074DAB19F2B52C00CB0325 /* MZ.SpritesLayer.swift */; };
+		8E074DB019F2B52C00CB0325 /* MZ.TouchRelativeMove.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E074DAC19F2B52C00CB0325 /* MZ.TouchRelativeMove.swift */; };
+		8E074DB119F2B52C00CB0325 /* MZ.TouchTeleportMove.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E074DAD19F2B52C00CB0325 /* MZ.TouchTeleportMove.swift */; };
+		8E074DF419F2B80400CB0325 /* Sample_PhysicsField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E074DDA19F2B80400CB0325 /* Sample_PhysicsField.swift */; };
+		8E074DF519F2B80400CB0325 /* Sample_PhysicsJoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E074DDB19F2B80400CB0325 /* Sample_PhysicsJoint.swift */; };
+		8E074DF619F2B80400CB0325 /* Sample_PhysicsSTG.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E074DDC19F2B80400CB0325 /* Sample_PhysicsSTG.swift */; };
+		8E074DF719F2B80400CB0325 /* Sample_SKTexture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E074DDD19F2B80400CB0325 /* Sample_SKTexture.swift */; };
+		8E074DF819F2B80400CB0325 /* SampleScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E074DDE19F2B80400CB0325 /* SampleScene.swift */; };
+		8E074DF919F2B80400CB0325 /* Smaple_SKPhysics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E074DE019F2B80400CB0325 /* Smaple_SKPhysics.swift */; };
+		8E074DFA19F2B80400CB0325 /* TestActionDifferentTimeScale.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E074DE219F2B80400CB0325 /* TestActionDifferentTimeScale.swift */; };
+		8E074DFB19F2B80400CB0325 /* TestActionOnce.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E074DE319F2B80400CB0325 /* TestActionOnce.swift */; };
+		8E074DFC19F2B80400CB0325 /* TestActionRepeat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E074DE419F2B80400CB0325 /* TestActionRepeat.swift */; };
+		8E074DFD19F2B80400CB0325 /* TestActionsChangeTimeScaleOnFly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E074DE519F2B80400CB0325 /* TestActionsChangeTimeScaleOnFly.swift */; };
+		8E074DFE19F2B80400CB0325 /* TestActionsGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E074DE619F2B80400CB0325 /* TestActionsGroup.swift */; };
+		8E074DFF19F2B80400CB0325 /* TestActionsGroupAddRevmoeOnFly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E074DE719F2B80400CB0325 /* TestActionsGroupAddRevmoeOnFly.swift */; };
+		8E074E0019F2B80400CB0325 /* TestActionsSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E074DE819F2B80400CB0325 /* TestActionsSequence.swift */; };
+		8E074E0119F2B80400CB0325 /* TestActionTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E074DE919F2B80400CB0325 /* TestActionTime.swift */; };
+		8E074E0219F2B80400CB0325 /* TestActionUpdate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E074DEA19F2B80400CB0325 /* TestActionUpdate.swift */; };
+		8E074E0319F2B80400CB0325 /* TestActorWithNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E074DEB19F2B80400CB0325 /* TestActorWithNode.swift */; };
+		8E074E0419F2B80400CB0325 /* TestBoundTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E074DEC19F2B80400CB0325 /* TestBoundTest.swift */; };
+		8E074E0519F2B80400CB0325 /* TestIOS8SK_LightNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E074DED19F2B80400CB0325 /* TestIOS8SK_LightNode.swift */; };
+		8E074E0619F2B80400CB0325 /* TestMoves.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E074DEE19F2B80400CB0325 /* TestMoves.swift */; };
+		8E074E0719F2B80400CB0325 /* TestMZActionWithSKPhysics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E074DEF19F2B80400CB0325 /* TestMZActionWithSKPhysics.swift */; };
+		8E074E0819F2B80400CB0325 /* TestPoolWithNodes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E074DF019F2B80400CB0325 /* TestPoolWithNodes.swift */; };
+		8E074E0919F2B80400CB0325 /* TestScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E074DF119F2B80400CB0325 /* TestScene.swift */; };
+		8E074E0A19F2B80400CB0325 /* TestSpriteCircleCollider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E074DF219F2B80400CB0325 /* TestSpriteCircleCollider.swift */; };
+		8E074E0B19F2B80400CB0325 /* TestTouchRelativeMoveAndBound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E074DF319F2B80400CB0325 /* TestTouchRelativeMoveAndBound.swift */; };
+		8E074E0F19F2B81000CB0325 /* ActorWindTunnel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E074E0D19F2B81000CB0325 /* ActorWindTunnel.swift */; };
+		8E074E1019F2B81000CB0325 /* ActorWindTunnelScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E074E0E19F2B81000CB0325 /* ActorWindTunnelScene.swift */; };
+		8E074E1219F2B83500CB0325 /* MZ.SceneWithQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E074E1119F2B83500CB0325 /* MZ.SceneWithQueue.swift */; };
+		8E074E1419F2B84D00CB0325 /* MZ.GameDebugs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E074E1319F2B84D00CB0325 /* MZ.GameDebugs.swift */; };
+		8E55D8B319F2B15C00B5177F /* MZ.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E55D88D19F2B15C00B5177F /* MZ.swift */; };
+		8E55D8BB19F2B1DA00B5177F /* MZ.Debugs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E55D8B919F2B1DA00B5177F /* MZ.Debugs.swift */; };
+		8E55D8BC19F2B1DA00B5177F /* MZ.Maths.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E55D8BA19F2B1DA00B5177F /* MZ.Maths.swift */; };
+		8E55D8BF19F2B1E400B5177F /* MZ.CGExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E55D8BE19F2B1E400B5177F /* MZ.CGExtensions.swift */; };
+		8E55D8C119F2B26400B5177F /* MZ.TypeDefines.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E55D8C019F2B26400B5177F /* MZ.TypeDefines.swift */; };
+		8E5A758919F6734300B8EBB6 /* MZ.Strength.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5A758819F6734300B8EBB6 /* MZ.Strength.swift */; };
+		8E6FE3B319F627AE001C7EE9 /* MZ.Moves.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6FE3AC19F627AE001C7EE9 /* MZ.Moves.swift */; };
+		8E6FE3B419F627AE001C7EE9 /* MZ.Moves.Follow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6FE3AD19F627AE001C7EE9 /* MZ.Moves.Follow.swift */; };
+		8E6FE3B519F627AE001C7EE9 /* MZ.Moves.ReachAtTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6FE3AE19F627AE001C7EE9 /* MZ.Moves.ReachAtTime.swift */; };
+		8E6FE3B619F627AE001C7EE9 /* MZ.Moves.Round.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6FE3AF19F627AE001C7EE9 /* MZ.Moves.Round.swift */; };
+		8E6FE3B719F627AE001C7EE9 /* MZ.Moves.TurnFromTo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6FE3B019F627AE001C7EE9 /* MZ.Moves.TurnFromTo.swift */; };
+		8E6FE3B819F627AE001C7EE9 /* MZ.Moves.TurnFromToInDuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6FE3B119F627AE001C7EE9 /* MZ.Moves.TurnFromToInDuration.swift */; };
+		8E6FE3B919F627AE001C7EE9 /* MZ.Moves.VelocityDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6FE3B219F627AE001C7EE9 /* MZ.Moves.VelocityDirection.swift */; };
+		8E81FBE119F63A800077DCBF /* MZ.Attacks.EvenNWayToDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E81FBE019F63A800077DCBF /* MZ.Attacks.EvenNWayToDirection.swift */; };
+		8E850E0119948BC500FC99DB /* 600px-721.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E850DFD19948BC500FC99DB /* 600px-721.png */; };
+		8E850E0219948BC500FC99DB /* enemies.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 8E850DFE19948BC500FC99DB /* enemies.atlas */; };
+		8E850E0419948BC500FC99DB /* player.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 8E850E0019948BC500FC99DB /* player.atlas */; };
+		8E89782519D3DC8400949007 /* C001_redhoodie_thum.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E89782219D3DC8400949007 /* C001_redhoodie_thum.png */; };
+		8E89782619D3DC8400949007 /* C003_rabbit_thum.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E89782319D3DC8400949007 /* C003_rabbit_thum.png */; };
+		8E89782719D3DC8400949007 /* C005_deer_thum.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E89782419D3DC8400949007 /* C005_deer_thum.png */; };
+		8EB6FEBA19CAE11A00A19C3E /* bosslogo-sheet0.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EB6FEB919CAE11A00A19C3E /* bosslogo-sheet0.png */; };
+		8EC52C3119F636CE0008078E /* MZ.Attacks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EC52C2E19F636CE0008078E /* MZ.Attacks.swift */; };
+		8EC52C3319F636CE0008078E /* MZ.Attacks.OddNWayToDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EC52C3019F636CE0008078E /* MZ.Attacks.OddNWayToDirection.swift */; };
+		8EC544C819DEB869001B4A49 /* enemy_bullets.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 8EC544C719DEB869001B4A49 /* enemy_bullets.atlas */; };
+		8EDC41E619CDED6B007FC3F5 /* 42616006.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EDC41E519CDED6B007FC3F5 /* 42616006.png */; };
+		8EE486D01993832F00A7D232 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE486CF1993832F00A7D232 /* AppDelegate.swift */; };
+		8EE486D41993832F00A7D232 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE486D31993832F00A7D232 /* GameScene.swift */; };
+		8EE486D61993832F00A7D232 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE486D51993832F00A7D232 /* GameViewController.swift */; };
+		8EE486D91993832F00A7D232 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EE486D71993832F00A7D232 /* Main.storyboard */; };
+		8EE486DB1993832F00A7D232 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EE486DA1993832F00A7D232 /* Images.xcassets */; };
+		8EE486E71993833000A7D232 /* Swift_MZGameActionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE486E61993833000A7D232 /* Swift_MZGameActionsTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8EE486E11993833000A7D232 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8EE486C21993832F00A7D232 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8EE486C91993832F00A7D232;
+			remoteInfo = "Swift-MZGameActions";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8E074CD219F2B32800CB0325 /* MZ.Action.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MZ.Action.swift; sourceTree = "<group>"; };
+		8E074D0B19F2B33900CB0325 /* MZ.SpriteKitExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MZ.SpriteKitExtensions.swift; sourceTree = "<group>"; };
+		8E074D0E19F2B34800CB0325 /* MZ.TouchDefines.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MZ.TouchDefines.swift; sourceTree = "<group>"; };
+		8E074D9019F2B41700CB0325 /* MZ.ActionProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MZ.ActionProtocols.swift; sourceTree = "<group>"; };
+		8E074D9219F2B42400CB0325 /* MZ.ActionTime.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MZ.ActionTime.swift; sourceTree = "<group>"; };
+		8E074D9419F2B43B00CB0325 /* MZ.Pool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MZ.Pool.swift; sourceTree = "<group>"; };
+		8E074D9619F2B45200CB0325 /* MZ.ActionRepeat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MZ.ActionRepeat.swift; sourceTree = "<group>"; };
+		8E074D9719F2B45200CB0325 /* MZ.ActionsGroup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MZ.ActionsGroup.swift; sourceTree = "<group>"; };
+		8E074D9819F2B45200CB0325 /* MZ.ActionsSequence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MZ.ActionsSequence.swift; sourceTree = "<group>"; };
+		8E074D9C19F2B46300CB0325 /* MZ.Actor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MZ.Actor.swift; sourceTree = "<group>"; };
+		8E074DA019F2B4C700CB0325 /* MZ.Wait.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MZ.Wait.swift; sourceTree = "<group>"; };
+		8E074DA219F2B4FC00CB0325 /* MZ.BoundTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MZ.BoundTest.swift; sourceTree = "<group>"; };
+		8E074DA419F2B50800CB0325 /* MZ.Health.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MZ.Health.swift; sourceTree = "<group>"; };
+		8E074DA619F2B51400CB0325 /* MZ.Nodes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MZ.Nodes.swift; sourceTree = "<group>"; };
+		8E074DA719F2B51400CB0325 /* MZ.PhysicsBody.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MZ.PhysicsBody.swift; sourceTree = "<group>"; };
+		8E074DAA19F2B52C00CB0325 /* MZ.SpriteCircleCollider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MZ.SpriteCircleCollider.swift; sourceTree = "<group>"; };
+		8E074DAB19F2B52C00CB0325 /* MZ.SpritesLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MZ.SpritesLayer.swift; sourceTree = "<group>"; };
+		8E074DAC19F2B52C00CB0325 /* MZ.TouchRelativeMove.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MZ.TouchRelativeMove.swift; sourceTree = "<group>"; };
+		8E074DAD19F2B52C00CB0325 /* MZ.TouchTeleportMove.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MZ.TouchTeleportMove.swift; sourceTree = "<group>"; };
+		8E074DDA19F2B80400CB0325 /* Sample_PhysicsField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sample_PhysicsField.swift; sourceTree = "<group>"; };
+		8E074DDB19F2B80400CB0325 /* Sample_PhysicsJoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sample_PhysicsJoint.swift; sourceTree = "<group>"; };
+		8E074DDC19F2B80400CB0325 /* Sample_PhysicsSTG.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sample_PhysicsSTG.swift; sourceTree = "<group>"; };
+		8E074DDD19F2B80400CB0325 /* Sample_SKTexture.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sample_SKTexture.swift; sourceTree = "<group>"; };
+		8E074DDE19F2B80400CB0325 /* SampleScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleScene.swift; sourceTree = "<group>"; };
+		8E074DDF19F2B80400CB0325 /* SamplesPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = SamplesPlayground.playground; sourceTree = "<group>"; };
+		8E074DE019F2B80400CB0325 /* Smaple_SKPhysics.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Smaple_SKPhysics.swift; sourceTree = "<group>"; };
+		8E074DE219F2B80400CB0325 /* TestActionDifferentTimeScale.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestActionDifferentTimeScale.swift; sourceTree = "<group>"; };
+		8E074DE319F2B80400CB0325 /* TestActionOnce.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestActionOnce.swift; sourceTree = "<group>"; };
+		8E074DE419F2B80400CB0325 /* TestActionRepeat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestActionRepeat.swift; sourceTree = "<group>"; };
+		8E074DE519F2B80400CB0325 /* TestActionsChangeTimeScaleOnFly.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestActionsChangeTimeScaleOnFly.swift; sourceTree = "<group>"; };
+		8E074DE619F2B80400CB0325 /* TestActionsGroup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestActionsGroup.swift; sourceTree = "<group>"; };
+		8E074DE719F2B80400CB0325 /* TestActionsGroupAddRevmoeOnFly.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestActionsGroupAddRevmoeOnFly.swift; sourceTree = "<group>"; };
+		8E074DE819F2B80400CB0325 /* TestActionsSequence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestActionsSequence.swift; sourceTree = "<group>"; };
+		8E074DE919F2B80400CB0325 /* TestActionTime.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestActionTime.swift; sourceTree = "<group>"; };
+		8E074DEA19F2B80400CB0325 /* TestActionUpdate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestActionUpdate.swift; sourceTree = "<group>"; };
+		8E074DEB19F2B80400CB0325 /* TestActorWithNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestActorWithNode.swift; sourceTree = "<group>"; };
+		8E074DEC19F2B80400CB0325 /* TestBoundTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestBoundTest.swift; sourceTree = "<group>"; };
+		8E074DED19F2B80400CB0325 /* TestIOS8SK_LightNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestIOS8SK_LightNode.swift; sourceTree = "<group>"; };
+		8E074DEE19F2B80400CB0325 /* TestMoves.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestMoves.swift; sourceTree = "<group>"; };
+		8E074DEF19F2B80400CB0325 /* TestMZActionWithSKPhysics.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestMZActionWithSKPhysics.swift; sourceTree = "<group>"; };
+		8E074DF019F2B80400CB0325 /* TestPoolWithNodes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestPoolWithNodes.swift; sourceTree = "<group>"; };
+		8E074DF119F2B80400CB0325 /* TestScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestScene.swift; sourceTree = "<group>"; };
+		8E074DF219F2B80400CB0325 /* TestSpriteCircleCollider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestSpriteCircleCollider.swift; sourceTree = "<group>"; };
+		8E074DF319F2B80400CB0325 /* TestTouchRelativeMoveAndBound.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestTouchRelativeMoveAndBound.swift; sourceTree = "<group>"; };
+		8E074E0D19F2B81000CB0325 /* ActorWindTunnel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActorWindTunnel.swift; sourceTree = "<group>"; };
+		8E074E0E19F2B81000CB0325 /* ActorWindTunnelScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActorWindTunnelScene.swift; sourceTree = "<group>"; };
+		8E074E1119F2B83500CB0325 /* MZ.SceneWithQueue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MZ.SceneWithQueue.swift; sourceTree = "<group>"; };
+		8E074E1319F2B84D00CB0325 /* MZ.GameDebugs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MZ.GameDebugs.swift; sourceTree = "<group>"; };
+		8E55D88D19F2B15C00B5177F /* MZ.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MZ.swift; sourceTree = "<group>"; };
+		8E55D8B919F2B1DA00B5177F /* MZ.Debugs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MZ.Debugs.swift; sourceTree = "<group>"; };
+		8E55D8BA19F2B1DA00B5177F /* MZ.Maths.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MZ.Maths.swift; sourceTree = "<group>"; };
+		8E55D8BE19F2B1E400B5177F /* MZ.CGExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MZ.CGExtensions.swift; sourceTree = "<group>"; };
+		8E55D8C019F2B26400B5177F /* MZ.TypeDefines.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MZ.TypeDefines.swift; sourceTree = "<group>"; };
+		8E5A758819F6734300B8EBB6 /* MZ.Strength.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MZ.Strength.swift; sourceTree = "<group>"; };
+		8E6FE3AC19F627AE001C7EE9 /* MZ.Moves.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MZ.Moves.swift; sourceTree = "<group>"; };
+		8E6FE3AD19F627AE001C7EE9 /* MZ.Moves.Follow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MZ.Moves.Follow.swift; sourceTree = "<group>"; };
+		8E6FE3AE19F627AE001C7EE9 /* MZ.Moves.ReachAtTime.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MZ.Moves.ReachAtTime.swift; sourceTree = "<group>"; };
+		8E6FE3AF19F627AE001C7EE9 /* MZ.Moves.Round.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MZ.Moves.Round.swift; sourceTree = "<group>"; };
+		8E6FE3B019F627AE001C7EE9 /* MZ.Moves.TurnFromTo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MZ.Moves.TurnFromTo.swift; sourceTree = "<group>"; };
+		8E6FE3B119F627AE001C7EE9 /* MZ.Moves.TurnFromToInDuration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MZ.Moves.TurnFromToInDuration.swift; sourceTree = "<group>"; };
+		8E6FE3B219F627AE001C7EE9 /* MZ.Moves.VelocityDirection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MZ.Moves.VelocityDirection.swift; sourceTree = "<group>"; };
+		8E81FBE019F63A800077DCBF /* MZ.Attacks.EvenNWayToDirection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MZ.Attacks.EvenNWayToDirection.swift; sourceTree = "<group>"; };
+		8E850DFD19948BC500FC99DB /* 600px-721.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "600px-721.png"; sourceTree = "<group>"; };
+		8E850DFE19948BC500FC99DB /* enemies.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = enemies.atlas; sourceTree = "<group>"; };
+		8E850E0019948BC500FC99DB /* player.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = player.atlas; sourceTree = "<group>"; };
+		8E89782219D3DC8400949007 /* C001_redhoodie_thum.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = C001_redhoodie_thum.png; sourceTree = "<group>"; };
+		8E89782319D3DC8400949007 /* C003_rabbit_thum.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = C003_rabbit_thum.png; sourceTree = "<group>"; };
+		8E89782419D3DC8400949007 /* C005_deer_thum.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = C005_deer_thum.png; sourceTree = "<group>"; };
+		8EB6FEB919CAE11A00A19C3E /* bosslogo-sheet0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bosslogo-sheet0.png"; sourceTree = "<group>"; };
+		8EC52C2E19F636CE0008078E /* MZ.Attacks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MZ.Attacks.swift; sourceTree = "<group>"; };
+		8EC52C3019F636CE0008078E /* MZ.Attacks.OddNWayToDirection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MZ.Attacks.OddNWayToDirection.swift; sourceTree = "<group>"; };
+		8EC544C719DEB869001B4A49 /* enemy_bullets.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = enemy_bullets.atlas; sourceTree = "<group>"; };
+		8EDC41E519CDED6B007FC3F5 /* 42616006.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 42616006.png; sourceTree = "<group>"; };
+		8EE486CA1993832F00A7D232 /* Swift-MZGameActions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift-MZGameActions.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EE486CE1993832F00A7D232 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8EE486CF1993832F00A7D232 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8EE486D31993832F00A7D232 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		8EE486D51993832F00A7D232 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		8EE486D81993832F00A7D232 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8EE486DA1993832F00A7D232 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8EE486E01993833000A7D232 /* Swift-MZGameActionsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift-MZGameActionsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EE486E51993833000A7D232 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8EE486E61993833000A7D232 /* Swift_MZGameActionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_MZGameActionsTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8EE486C71993832F00A7D232 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EE486DD1993833000A7D232 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8E074CD119F2B32800CB0325 /* GameActions */ = {
+			isa = PBXGroup;
+			children = (
+				8E074E1319F2B84D00CB0325 /* MZ.GameDebugs.swift */,
+				8E074D9019F2B41700CB0325 /* MZ.ActionProtocols.swift */,
+				8E074D9219F2B42400CB0325 /* MZ.ActionTime.swift */,
+				8E074D9419F2B43B00CB0325 /* MZ.Pool.swift */,
+				8E074CD219F2B32800CB0325 /* MZ.Action.swift */,
+				8E074D9619F2B45200CB0325 /* MZ.ActionRepeat.swift */,
+				8E074D9719F2B45200CB0325 /* MZ.ActionsGroup.swift */,
+				8E074D9819F2B45200CB0325 /* MZ.ActionsSequence.swift */,
+				8E074DA019F2B4C700CB0325 /* MZ.Wait.swift */,
+				8E074DA219F2B4FC00CB0325 /* MZ.BoundTest.swift */,
+				8E074D9C19F2B46300CB0325 /* MZ.Actor.swift */,
+				8E074DA419F2B50800CB0325 /* MZ.Health.swift */,
+				8E5A758819F6734300B8EBB6 /* MZ.Strength.swift */,
+				8E074DA619F2B51400CB0325 /* MZ.Nodes.swift */,
+				8E074DA719F2B51400CB0325 /* MZ.PhysicsBody.swift */,
+				8E074DAA19F2B52C00CB0325 /* MZ.SpriteCircleCollider.swift */,
+				8E074DAB19F2B52C00CB0325 /* MZ.SpritesLayer.swift */,
+				8E074DAC19F2B52C00CB0325 /* MZ.TouchRelativeMove.swift */,
+				8E074DAD19F2B52C00CB0325 /* MZ.TouchTeleportMove.swift */,
+				8E6FE3AB19F627AE001C7EE9 /* Moves */,
+				8EC52C2D19F636CE0008078E /* Attacks */,
+			);
+			path = GameActions;
+			sourceTree = "<group>";
+		};
+		8E074D0A19F2B33900CB0325 /* SpriteKitExtensions */ = {
+			isa = PBXGroup;
+			children = (
+				8E074D0B19F2B33900CB0325 /* MZ.SpriteKitExtensions.swift */,
+			);
+			path = SpriteKitExtensions;
+			sourceTree = "<group>";
+		};
+		8E074D0D19F2B34800CB0325 /* TouchExtensions */ = {
+			isa = PBXGroup;
+			children = (
+				8E074D0E19F2B34800CB0325 /* MZ.TouchDefines.swift */,
+			);
+			path = TouchExtensions;
+			sourceTree = "<group>";
+		};
+		8E074DD919F2B80400CB0325 /* Samples */ = {
+			isa = PBXGroup;
+			children = (
+				8E074DDA19F2B80400CB0325 /* Sample_PhysicsField.swift */,
+				8E074DDB19F2B80400CB0325 /* Sample_PhysicsJoint.swift */,
+				8E074DDC19F2B80400CB0325 /* Sample_PhysicsSTG.swift */,
+				8E074DDD19F2B80400CB0325 /* Sample_SKTexture.swift */,
+				8E074DDE19F2B80400CB0325 /* SampleScene.swift */,
+				8E074DDF19F2B80400CB0325 /* SamplesPlayground.playground */,
+				8E074DE019F2B80400CB0325 /* Smaple_SKPhysics.swift */,
+			);
+			path = Samples;
+			sourceTree = "<group>";
+		};
+		8E074DE119F2B80400CB0325 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				8E074DE219F2B80400CB0325 /* TestActionDifferentTimeScale.swift */,
+				8E074DE319F2B80400CB0325 /* TestActionOnce.swift */,
+				8E074DE419F2B80400CB0325 /* TestActionRepeat.swift */,
+				8E074DE519F2B80400CB0325 /* TestActionsChangeTimeScaleOnFly.swift */,
+				8E074DE619F2B80400CB0325 /* TestActionsGroup.swift */,
+				8E074DE719F2B80400CB0325 /* TestActionsGroupAddRevmoeOnFly.swift */,
+				8E074DE819F2B80400CB0325 /* TestActionsSequence.swift */,
+				8E074DE919F2B80400CB0325 /* TestActionTime.swift */,
+				8E074DEA19F2B80400CB0325 /* TestActionUpdate.swift */,
+				8E074DEB19F2B80400CB0325 /* TestActorWithNode.swift */,
+				8E074DEC19F2B80400CB0325 /* TestBoundTest.swift */,
+				8E074DED19F2B80400CB0325 /* TestIOS8SK_LightNode.swift */,
+				8E074DEE19F2B80400CB0325 /* TestMoves.swift */,
+				8E074DEF19F2B80400CB0325 /* TestMZActionWithSKPhysics.swift */,
+				8E074DF019F2B80400CB0325 /* TestPoolWithNodes.swift */,
+				8E074DF119F2B80400CB0325 /* TestScene.swift */,
+				8E074DF219F2B80400CB0325 /* TestSpriteCircleCollider.swift */,
+				8E074DF319F2B80400CB0325 /* TestTouchRelativeMoveAndBound.swift */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		8E074E0C19F2B81000CB0325 /* ActorWindTunnel */ = {
+			isa = PBXGroup;
+			children = (
+				8E074E0D19F2B81000CB0325 /* ActorWindTunnel.swift */,
+				8E074E0E19F2B81000CB0325 /* ActorWindTunnelScene.swift */,
+			);
+			path = ActorWindTunnel;
+			sourceTree = "<group>";
+		};
+		8E55D86C19F2B15C00B5177F /* MZ */ = {
+			isa = PBXGroup;
+			children = (
+				8E55D88D19F2B15C00B5177F /* MZ.swift */,
+				8E55D8C019F2B26400B5177F /* MZ.TypeDefines.swift */,
+				8E074E1119F2B83500CB0325 /* MZ.SceneWithQueue.swift */,
+				8E55D8BD19F2B1E400B5177F /* CGExtensions */,
+				8E074D0D19F2B34800CB0325 /* TouchExtensions */,
+				8E074D0A19F2B33900CB0325 /* SpriteKitExtensions */,
+				8E074CD119F2B32800CB0325 /* GameActions */,
+				8E55D8B819F2B1DA00B5177F /* Utilities */,
+			);
+			path = MZ;
+			sourceTree = "<group>";
+		};
+		8E55D8B819F2B1DA00B5177F /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				8E55D8B919F2B1DA00B5177F /* MZ.Debugs.swift */,
+				8E55D8BA19F2B1DA00B5177F /* MZ.Maths.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		8E55D8BD19F2B1E400B5177F /* CGExtensions */ = {
+			isa = PBXGroup;
+			children = (
+				8E55D8BE19F2B1E400B5177F /* MZ.CGExtensions.swift */,
+			);
+			path = CGExtensions;
+			sourceTree = "<group>";
+		};
+		8E6FE3AB19F627AE001C7EE9 /* Moves */ = {
+			isa = PBXGroup;
+			children = (
+				8E6FE3AC19F627AE001C7EE9 /* MZ.Moves.swift */,
+				8E6FE3AD19F627AE001C7EE9 /* MZ.Moves.Follow.swift */,
+				8E6FE3AE19F627AE001C7EE9 /* MZ.Moves.ReachAtTime.swift */,
+				8E6FE3AF19F627AE001C7EE9 /* MZ.Moves.Round.swift */,
+				8E6FE3B019F627AE001C7EE9 /* MZ.Moves.TurnFromTo.swift */,
+				8E6FE3B119F627AE001C7EE9 /* MZ.Moves.TurnFromToInDuration.swift */,
+				8E6FE3B219F627AE001C7EE9 /* MZ.Moves.VelocityDirection.swift */,
+			);
+			path = Moves;
+			sourceTree = "<group>";
+		};
+		8E850DFC19948BC500FC99DB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8E850DFD19948BC500FC99DB /* 600px-721.png */,
+				8EDC41E519CDED6B007FC3F5 /* 42616006.png */,
+				8EB6FEB919CAE11A00A19C3E /* bosslogo-sheet0.png */,
+				8E89782219D3DC8400949007 /* C001_redhoodie_thum.png */,
+				8E89782319D3DC8400949007 /* C003_rabbit_thum.png */,
+				8E89782419D3DC8400949007 /* C005_deer_thum.png */,
+				8E850DFE19948BC500FC99DB /* enemies.atlas */,
+				8EC544C719DEB869001B4A49 /* enemy_bullets.atlas */,
+				8E850E0019948BC500FC99DB /* player.atlas */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		8EC52C2D19F636CE0008078E /* Attacks */ = {
+			isa = PBXGroup;
+			children = (
+				8EC52C2E19F636CE0008078E /* MZ.Attacks.swift */,
+				8EC52C3019F636CE0008078E /* MZ.Attacks.OddNWayToDirection.swift */,
+				8E81FBE019F63A800077DCBF /* MZ.Attacks.EvenNWayToDirection.swift */,
+			);
+			path = Attacks;
+			sourceTree = "<group>";
+		};
+		8EE486C11993832F00A7D232 = {
+			isa = PBXGroup;
+			children = (
+				8EE486CC1993832F00A7D232 /* Swift-MZGameActions */,
+				8EE486E31993833000A7D232 /* Swift-MZGameActionsTests */,
+				8EE486CB1993832F00A7D232 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8EE486CB1993832F00A7D232 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8EE486CA1993832F00A7D232 /* Swift-MZGameActions.app */,
+				8EE486E01993833000A7D232 /* Swift-MZGameActionsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8EE486CC1993832F00A7D232 /* Swift-MZGameActions */ = {
+			isa = PBXGroup;
+			children = (
+				8EE486CF1993832F00A7D232 /* AppDelegate.swift */,
+				8EE486D31993832F00A7D232 /* GameScene.swift */,
+				8EE486D51993832F00A7D232 /* GameViewController.swift */,
+				8E55D86C19F2B15C00B5177F /* MZ */,
+				8E074DD919F2B80400CB0325 /* Samples */,
+				8E074DE119F2B80400CB0325 /* Tests */,
+				8E074E0C19F2B81000CB0325 /* ActorWindTunnel */,
+				8EE486D71993832F00A7D232 /* Main.storyboard */,
+				8EE486DA1993832F00A7D232 /* Images.xcassets */,
+				8E850DFC19948BC500FC99DB /* Resources */,
+				8EE486CD1993832F00A7D232 /* Supporting Files */,
+			);
+			path = "Swift-MZGameActions";
+			sourceTree = "<group>";
+		};
+		8EE486CD1993832F00A7D232 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8EE486CE1993832F00A7D232 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8EE486E31993833000A7D232 /* Swift-MZGameActionsTests */ = {
+			isa = PBXGroup;
+			children = (
+				8EE486E61993833000A7D232 /* Swift_MZGameActionsTests.swift */,
+				8EE486E41993833000A7D232 /* Supporting Files */,
+			);
+			path = "Swift-MZGameActionsTests";
+			sourceTree = "<group>";
+		};
+		8EE486E41993833000A7D232 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8EE486E51993833000A7D232 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8EE486C91993832F00A7D232 /* Swift-MZGameActions */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EE486EA1993833000A7D232 /* Build configuration list for PBXNativeTarget "Swift-MZGameActions" */;
+			buildPhases = (
+				8EE486C61993832F00A7D232 /* Sources */,
+				8EE486C71993832F00A7D232 /* Frameworks */,
+				8EE486C81993832F00A7D232 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Swift-MZGameActions";
+			productName = "Swift-MZGameActions";
+			productReference = 8EE486CA1993832F00A7D232 /* Swift-MZGameActions.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8EE486DF1993833000A7D232 /* Swift-MZGameActionsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EE486ED1993833000A7D232 /* Build configuration list for PBXNativeTarget "Swift-MZGameActionsTests" */;
+			buildPhases = (
+				8EE486DC1993833000A7D232 /* Sources */,
+				8EE486DD1993833000A7D232 /* Frameworks */,
+				8EE486DE1993833000A7D232 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8EE486E21993833000A7D232 /* PBXTargetDependency */,
+			);
+			name = "Swift-MZGameActionsTests";
+			productName = "Swift-MZGameActionsTests";
+			productReference = 8EE486E01993833000A7D232 /* Swift-MZGameActionsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8EE486C21993832F00A7D232 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Inaba Mizuki";
+				TargetAttributes = {
+					8EE486C91993832F00A7D232 = {
+						CreatedOnToolsVersion = 6.0;
+						DevelopmentTeam = T4SAZ6T5ZX;
+					};
+					8EE486DF1993833000A7D232 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 8EE486C91993832F00A7D232;
+					};
+				};
+			};
+			buildConfigurationList = 8EE486C51993832F00A7D232 /* Build configuration list for PBXProject "Swift-MZGameActions" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8EE486C11993832F00A7D232;
+			productRefGroup = 8EE486CB1993832F00A7D232 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8EE486C91993832F00A7D232 /* Swift-MZGameActions */,
+				8EE486DF1993833000A7D232 /* Swift-MZGameActionsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8EE486C81993832F00A7D232 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E89782719D3DC8400949007 /* C005_deer_thum.png in Resources */,
+				8E850E0419948BC500FC99DB /* player.atlas in Resources */,
+				8EE486DB1993832F00A7D232 /* Images.xcassets in Resources */,
+				8EC544C819DEB869001B4A49 /* enemy_bullets.atlas in Resources */,
+				8EE486D91993832F00A7D232 /* Main.storyboard in Resources */,
+				8EB6FEBA19CAE11A00A19C3E /* bosslogo-sheet0.png in Resources */,
+				8E850E0219948BC500FC99DB /* enemies.atlas in Resources */,
+				8E850E0119948BC500FC99DB /* 600px-721.png in Resources */,
+				8E89782519D3DC8400949007 /* C001_redhoodie_thum.png in Resources */,
+				8EDC41E619CDED6B007FC3F5 /* 42616006.png in Resources */,
+				8E89782619D3DC8400949007 /* C003_rabbit_thum.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EE486DE1993833000A7D232 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8EE486C61993832F00A7D232 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E55D8B319F2B15C00B5177F /* MZ.swift in Sources */,
+				8E55D8C119F2B26400B5177F /* MZ.TypeDefines.swift in Sources */,
+				8E55D8BB19F2B1DA00B5177F /* MZ.Debugs.swift in Sources */,
+				8E074D0F19F2B34800CB0325 /* MZ.TouchDefines.swift in Sources */,
+				8E55D8BC19F2B1DA00B5177F /* MZ.Maths.swift in Sources */,
+				8E55D8BF19F2B1E400B5177F /* MZ.CGExtensions.swift in Sources */,
+				8E074D9319F2B42400CB0325 /* MZ.ActionTime.swift in Sources */,
+				8E074D9119F2B41700CB0325 /* MZ.ActionProtocols.swift in Sources */,
+				8E074CEE19F2B32800CB0325 /* MZ.Action.swift in Sources */,
+				8E074D9919F2B45200CB0325 /* MZ.ActionRepeat.swift in Sources */,
+				8E074D9A19F2B45200CB0325 /* MZ.ActionsGroup.swift in Sources */,
+				8E074D9B19F2B45200CB0325 /* MZ.ActionsSequence.swift in Sources */,
+				8E074D9D19F2B46300CB0325 /* MZ.Actor.swift in Sources */,
+				8E074DA119F2B4C700CB0325 /* MZ.Wait.swift in Sources */,
+				8E074DAE19F2B52C00CB0325 /* MZ.SpriteCircleCollider.swift in Sources */,
+				8E074DB019F2B52C00CB0325 /* MZ.TouchRelativeMove.swift in Sources */,
+				8E074DB119F2B52C00CB0325 /* MZ.TouchTeleportMove.swift in Sources */,
+				8E074DAF19F2B52C00CB0325 /* MZ.SpritesLayer.swift in Sources */,
+				8E074D9519F2B43B00CB0325 /* MZ.Pool.swift in Sources */,
+				8E074DA819F2B51400CB0325 /* MZ.Nodes.swift in Sources */,
+				8E074DA519F2B50800CB0325 /* MZ.Health.swift in Sources */,
+				8E074DA319F2B4FC00CB0325 /* MZ.BoundTest.swift in Sources */,
+				8E074DA919F2B51400CB0325 /* MZ.PhysicsBody.swift in Sources */,
+				8E5A758919F6734300B8EBB6 /* MZ.Strength.swift in Sources */,
+				8E074D0C19F2B33900CB0325 /* MZ.SpriteKitExtensions.swift in Sources */,
+				8E6FE3B319F627AE001C7EE9 /* MZ.Moves.swift in Sources */,
+				8E6FE3B419F627AE001C7EE9 /* MZ.Moves.Follow.swift in Sources */,
+				8E6FE3B519F627AE001C7EE9 /* MZ.Moves.ReachAtTime.swift in Sources */,
+				8E6FE3B619F627AE001C7EE9 /* MZ.Moves.Round.swift in Sources */,
+				8E6FE3B719F627AE001C7EE9 /* MZ.Moves.TurnFromTo.swift in Sources */,
+				8E6FE3B819F627AE001C7EE9 /* MZ.Moves.TurnFromToInDuration.swift in Sources */,
+				8E6FE3B919F627AE001C7EE9 /* MZ.Moves.VelocityDirection.swift in Sources */,
+				8EC52C3119F636CE0008078E /* MZ.Attacks.swift in Sources */,
+				8E81FBE119F63A800077DCBF /* MZ.Attacks.EvenNWayToDirection.swift in Sources */,
+				8EC52C3319F636CE0008078E /* MZ.Attacks.OddNWayToDirection.swift in Sources */,
+				8E074E1419F2B84D00CB0325 /* MZ.GameDebugs.swift in Sources */,
+				8E074E1219F2B83500CB0325 /* MZ.SceneWithQueue.swift in Sources */,
+				8EE486D01993832F00A7D232 /* AppDelegate.swift in Sources */,
+				8EE486D61993832F00A7D232 /* GameViewController.swift in Sources */,
+				8EE486D41993832F00A7D232 /* GameScene.swift in Sources */,
+				8E074E1019F2B81000CB0325 /* ActorWindTunnelScene.swift in Sources */,
+				8E074E0F19F2B81000CB0325 /* ActorWindTunnel.swift in Sources */,
+				8E074DF819F2B80400CB0325 /* SampleScene.swift in Sources */,
+				8E074E0919F2B80400CB0325 /* TestScene.swift in Sources */,
+				8E074DF419F2B80400CB0325 /* Sample_PhysicsField.swift in Sources */,
+				8E074DF519F2B80400CB0325 /* Sample_PhysicsJoint.swift in Sources */,
+				8E074DF619F2B80400CB0325 /* Sample_PhysicsSTG.swift in Sources */,
+				8E074DF719F2B80400CB0325 /* Sample_SKTexture.swift in Sources */,
+				8E074DF919F2B80400CB0325 /* Smaple_SKPhysics.swift in Sources */,
+				8E074DFA19F2B80400CB0325 /* TestActionDifferentTimeScale.swift in Sources */,
+				8E074DFB19F2B80400CB0325 /* TestActionOnce.swift in Sources */,
+				8E074DFC19F2B80400CB0325 /* TestActionRepeat.swift in Sources */,
+				8E074DFD19F2B80400CB0325 /* TestActionsChangeTimeScaleOnFly.swift in Sources */,
+				8E074DFE19F2B80400CB0325 /* TestActionsGroup.swift in Sources */,
+				8E074DFF19F2B80400CB0325 /* TestActionsGroupAddRevmoeOnFly.swift in Sources */,
+				8E074E0019F2B80400CB0325 /* TestActionsSequence.swift in Sources */,
+				8E074E0119F2B80400CB0325 /* TestActionTime.swift in Sources */,
+				8E074E0219F2B80400CB0325 /* TestActionUpdate.swift in Sources */,
+				8E074E0319F2B80400CB0325 /* TestActorWithNode.swift in Sources */,
+				8E074E0419F2B80400CB0325 /* TestBoundTest.swift in Sources */,
+				8E074E0519F2B80400CB0325 /* TestIOS8SK_LightNode.swift in Sources */,
+				8E074E0619F2B80400CB0325 /* TestMoves.swift in Sources */,
+				8E074E0719F2B80400CB0325 /* TestMZActionWithSKPhysics.swift in Sources */,
+				8E074E0819F2B80400CB0325 /* TestPoolWithNodes.swift in Sources */,
+				8E074E0A19F2B80400CB0325 /* TestSpriteCircleCollider.swift in Sources */,
+				8E074E0B19F2B80400CB0325 /* TestTouchRelativeMoveAndBound.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EE486DC1993833000A7D232 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EE486E71993833000A7D232 /* Swift_MZGameActionsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8EE486E21993833000A7D232 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8EE486C91993832F00A7D232 /* Swift-MZGameActions */;
+			targetProxy = 8EE486E11993833000A7D232 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8EE486D71993832F00A7D232 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8EE486D81993832F00A7D232 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8EE486E81993833000A7D232 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8EE486E91993833000A7D232 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8EE486EB1993833000A7D232 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Swift-MZGameActions/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+			};
+			name = Debug;
+		};
+		8EE486EC1993833000A7D232 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Swift-MZGameActions/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+			};
+			name = Release;
+		};
+		8EE486EE1993833000A7D232 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Swift-MZGameActionsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swift-MZGameActions.app/Swift-MZGameActions";
+			};
+			name = Debug;
+		};
+		8EE486EF1993833000A7D232 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Swift-MZGameActionsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swift-MZGameActions.app/Swift-MZGameActions";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8EE486C51993832F00A7D232 /* Build configuration list for PBXProject "Swift-MZGameActions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EE486E81993833000A7D232 /* Debug */,
+				8EE486E91993833000A7D232 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8EE486EA1993833000A7D232 /* Build configuration list for PBXNativeTarget "Swift-MZGameActions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EE486EB1993833000A7D232 /* Debug */,
+				8EE486EC1993833000A7D232 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8EE486ED1993833000A7D232 /* Build configuration list for PBXNativeTarget "Swift-MZGameActionsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EE486EE1993833000A7D232 /* Debug */,
+				8EE486EF1993833000A7D232 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8EE486C21993832F00A7D232 /* Project object */;
+}

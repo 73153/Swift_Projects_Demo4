@@ -1,0 +1,19 @@
+{
+        "item": [
+            {
+                "title": "Pizza Margherita",
+                "subtitle": "Tomato, mozzarella, oregano",
+                "image": "pizza-patriottica.png"
+            },
+            {
+                "title": "Pizza Viennese",
+                "subtitle": "tomato, mozzarella, German sausage, oregano, oil",
+                "image": "pizza-patriottica.png"
+            },
+            {
+                 "title": "Pizza Capricciosa",
+                 "subtitle": "mozzarella, tomato, mushrooms, artichokes, cooked ham, olives, oil",
+                 "image": "pizza-patriottica.png"
+            }
+        ]
+}
